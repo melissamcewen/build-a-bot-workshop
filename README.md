@@ -60,38 +60,26 @@ Right now we'll be thinking about what kind of bot you want to build. And we'll 
 There are few options in the sample project for your scripts. You can create a bot based on a character (fictional or real...including yourself), a quiz, and a story.
 
 #### A Basic Character Script
-Examples in italics
+With an example!
 
 **What character will your bot have? Get creative: you can use an existing character, a new one you make up or even yourself!**
-*MelissaChatBot - a bot to tell people about myself*
+Jasmine Bot - a bot based the character from  Aladdin
 
-**What questions would you like your character to answer?**
-
-* What kind of writing do you do?
-* What kind of bots do you make?
-* What websites have you made?
-* What are your favorite restaurants?
-* What music do you like? 
-* What animals do you like?
-
-** Now divide that into an outline that shows how a conversation can flow, each branch of the conversation should have at most 3 choices **
-
-- _I&#39;d like to know about your work_
-  - _What kind of writing do you do?_
-    - ■■_Food writing_
-  - _What kind of bots do you make?_
-    - ■■_Curlsbot, this bot
-  - _What websites have you made?_
-    - ■■_Lifewtr.com, cook country.com, rga_
-- _I&#39;d like to know more about your interests_
-  - _What food do you like?_
-    - ■■_Pizza_
-    - ■■_Tacos_
-  - _What animals do you like?_
-    - ■■_Cats_
-    - ■■_Spiders_
+**What things would you your character to tell people talking to them?**
 
 
+** what kind of questions would someone ask your character in order to get them to say those things? **
+
+** Now divide your answers into categories **
+
+
+
+
+
+**Give your bot some personality! Write your answers in your characters voice. Don&#39;t forget a greeting and goodbye !**
+
+
+- Bye: Well thanks for chatting with me! Have a great day and check out my site some time!
 
 
 
