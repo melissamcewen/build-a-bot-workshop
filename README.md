@@ -41,6 +41,60 @@ https://developers.facebook.com/apps
 
 ![alt text](assets/images/tokengen.jpg "creating an app")
 
+![alt text](assets/images/pagesubscription.jpg "creating an app")
+
+![alt text](assets/images/webhooks.jpg "creating an app")
+
+
+![alt text](assets/images/glitch-env.vars.jpg "creating an app")
+
+### Test our bot using the console
+
+### Troubleshooting
+
+## Step 3: Design Your Bot
+
+### Write Your Script
+Right now we'll be thinking about what kind of bot you want to build. And we'll start an exercise that will help us design it. Designing is one of the most important part of the process. I've provided three kits for helping us write our chatbots. Messages have a 640 character limit so be aware of that when writing your script.
+
+There are few options in the sample project for your scripts. You can create a bot based on a character (fictional or real...including yourself), a quiz, and a story.
+
+#### A Basic Character Script
+Examples in italics
+
+**What character will your bot have? Get creative: you can use an existing character, a new one you make up or even yourself!**
+*MelissaChatBot - a bot to tell people about myself*
+
+**What questions would you like your character to answer?**
+
+* What kind of writing do you do?
+* What kind of bots do you make?
+* What websites have you made?
+* What are your favorite restaurants?
+* What music do you like? 
+* What animals do you like?
+
+** Now divide that into an outline that shows how a conversation can flow, each branch of the conversation should have at most 3 choices **
+
+- _I&#39;d like to know about your work_
+  - _What kind of writing do you do?_
+    - ■■_Food writing_
+  - _What kind of bots do you make?_
+    - ■■_Curlsbot, this bot
+  - _What websites have you made?_
+    - ■■_Lifewtr.com, cook country.com, rga_
+- _I&#39;d like to know more about your interests_
+  - _What food do you like?_
+    - ■■_Pizza_
+    - ■■_Tacos_
+  - _What animals do you like?_
+    - ■■_Cats_
+    - ■■_Spiders_
+
+
+
+
+
 
 testing 123
 ![alt text](assets/images/artclique.gif "Logo Title Text 1")
