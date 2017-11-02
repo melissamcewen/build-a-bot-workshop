@@ -1,9 +1,2 @@
-<<<<<<< HEAD
-=======
----
-title: This is my title
-layout: post
----
-
->>>>>>> parent of e6b38d9... building test
 testing 123
+![alt text](assets/images/artclique.gif "Logo Title Text 1")
