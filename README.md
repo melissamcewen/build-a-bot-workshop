@@ -55,7 +55,7 @@ https://developers.facebook.com/apps
 ## Step 3: Design Your Bot
 
 ### Write Your Script
-Right now we'll be thinking about what kind of bot you want to build. And we'll start an exercise that will help us design it. Designing is one of the most important part of the process. I've provided three kits for helping us write our chatbots. Messages have a 640 character limit so be aware of that when writing your script.
+Right now we'll be thinking about what kind of bot you want to build. And we'll start an exercise that will help us design it. Designing is one of the most important part of the process. I've provided three kits for helping us write our chatbots. Messages have a 640 character limit and questions should be about 20 characters, so be aware of that when writing your script.
 
 There are few options in the sample project for your scripts. You can create a bot based on a character (fictional or real...including yourself), a quiz, and a story.
 
@@ -63,14 +63,46 @@ There are few options in the sample project for your scripts. You can create a b
 With an example!
 
 **What character will your bot have? Get creative: you can use an existing character, a new one you make up or even yourself!**
-Jasmine Bot - a bot based the character from  Aladdin
+Belle Bot - a bot based the character from Beauty & The Beast
 
 **What things would you your character to tell people talking to them?**
 
+* I yearn for adventure
+* I love to read
+* I live in a small French village
+* I have a horse named Philippe
+* I have a father, Maurice, who is an inventor
+* I do not like Gaston
 
 ** what kind of questions would someone ask your character in order to get them to say those things? **
 
-** Now divide your answers into categories **
+* What are your dreams?  I yearn for adventure
+* What do you like to do? I love to read
+* Where do you live? I live in a small French village
+* Do you have any pets? I have a horse named Philippe
+* What's your family like? I have a father, Maurice, who is an inventor
+* What do you dislike? I do not like Gaston
+
+** Now we need to give your conversation a flow - can you divide your questions up into some categories with about 2-3 questions per category? **
+
+* likes
+  * What are your dreams?  I yearn for adventure
+  * What do you like to do? I love to read
+  * What do you dislike? I do not like Gaston
+* life
+  * Where do you live? I live in a small French village
+  * What's your family like? I have a father, Maurice, who is an inventor
+  
+  
+ ** Now let's turn those categories into questions themselves. How might someone ask about this aspect of your character? **
+ 
+ * likes = what do you like to do?
+ * life = I'd love to know more about your life
+ 
+ 
+ 
+ 
+
 
 
 
