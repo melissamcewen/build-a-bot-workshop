@@ -130,7 +130,7 @@ Great, now let's head to Glitch and copy it in
 
 OK now it's time to create a verify token. It can be anything, but it's a password so chose something good. I've given an example here which is not my app's password, but this is not something you should share otherwise. Put it in your that same .env file. Now we'll head back to the facebook page and tell it about our Glitch app, using something called a Webhook. A web hook is essentially the connection between your Glitch app and your Facebook app, allowing them to send messages back and forth. On your app in the Messenger section, scroll down to find the "Webhooks" section. Click "Setup Webhooks."
 
-![alt text](assets/images/setup-webhooks.jpg "click to set up your webhook)
+![alt text](assets/images/setup-webhooks.jpg "click to set up your webhook")
 
 you'll see the following form. Enter you Glitch app URL with "/webhook" at the end and your Verify Token
 
@@ -142,7 +142,7 @@ If you're successful you should get a nice green checkmark. And now finally you'
 
 
 
-### Test our bot using the console
+### Test Our Bot
 
 ### Troubleshooting
 
