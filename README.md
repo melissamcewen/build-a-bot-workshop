@@ -63,6 +63,7 @@ There are few options in the sample project for your scripts. You can create a b
 With an example!
 
 **What character will your bot have? Get creative: you can use an existing character, a new one you make up or even yourself!**
+
 Belle Bot - a bot based the character from Beauty & The Beast
 
 **What things would you your character to tell people talking to them?**
@@ -74,7 +75,7 @@ Belle Bot - a bot based the character from Beauty & The Beast
 * I have a father, Maurice, who is an inventor
 * I do not like Gaston
 
-**What kind of questions would someone ask your character in order to get them to say those things? **
+**What kind of questions would someone ask your character in order to get them to say those things?**
 
 * What are your dreams?  I yearn for adventure
 * What do you like to do? I love to read
@@ -83,7 +84,7 @@ Belle Bot - a bot based the character from Beauty & The Beast
 * What's your family like? I have a father, Maurice, who is an inventor
 * What do you dislike? I do not like Gaston
 
-**Now we need to give your conversation a flow - can you divide your questions up into some categories with about 2-3 questions per category? **
+**Now we need to give your conversation a flow - can you divide your questions up into some categories with about 2-3 questions per category?**
 
 * likes
   * What are your dreams?  I yearn for adventure
