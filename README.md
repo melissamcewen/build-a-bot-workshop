@@ -144,6 +144,59 @@ var melissa = {}
 
 ```
 
+OK inside those curly braces I'll put my data. Each piece of data has a "key" which tells me what the data is for. Like what kind of data is "McEwen"?
+
+I can use any word I want for this- last name, surname but it is also a variable, it's just like a variable inside the melissa variable, so I'll need to write it as a variable. Then I use a colon and then I the data that is stored - so in this case "McEwen." This is a piece of data and I'm going to use the string type since it's a word. I might also want to use that type for "555-555-5555" because otherwise JS will think it's 555 minus 555 minus 5555 and I want it to just leave it alone and not do math on it :) 
+```javascript
+phone : "555-555-5555",
+firstname: "melissa"
+lastname : "mcewen"
+
+```
+Now I'll stick all that stuff into my Melissa variable
+
+```javascript
+var melissa = {
+	phone : "555-555-5555",
+ firstname: "melissa",
+ lastname : "mcewen",
+}
+
+```
+Tada! Now you have an object!
+
+We'll also use arrays. Arrays are like lists and they can also contain any data, but they do not have keys like objects do. Think of your favorite foods. We'll turn them into an array.
+
+Arrays use brackets like this and we'll also put our new array in a variable
+```javascript
+var favFoods = []
+
+```
+
+Now we'll add a bunch of foods in there, as many as we want, the only rule is we separate them by a comma. What kind of data should we format our foods as?
+
+If you said strings you're right!
+```javascript
+var favFoods = ["pizza", "hot dogs", "lettuce"]
+
+```
+
+These lists can also go inside our object
+
+
+```javascript
+var melissa = {
+	phone : "555-555-5555",
+ firstname: "melissa",
+ lastname : "mcewen",
+ favFoods : ["pizza", "hot dogs", "lettuce"]
+}
+
+```
+### Learn About Documentation
+
+### Write Our First FB Message in Code!
+
 ```javascript
 ```
 
