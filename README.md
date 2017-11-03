@@ -74,7 +74,7 @@ Belle Bot - a bot based the character from Beauty & The Beast
 * I have a father, Maurice, who is an inventor
 * I do not like Gaston
 
-** what kind of questions would someone ask your character in order to get them to say those things? **
+**What kind of questions would someone ask your character in order to get them to say those things? **
 
 * What are your dreams?  I yearn for adventure
 * What do you like to do? I love to read
@@ -99,10 +99,6 @@ Belle Bot - a bot based the character from Beauty & The Beast
  * likes = what do you like to do?
  * life = tell me more about you
  
- 
- 
- 
- 
 **Give your bot some personality! Write your answers in your characters voice. Don&#39;t forget a greeting and goodbye !**
 
 * Oh hello! Sorry I didn't notice you, I've been reading this wonderful book. It's my favorite part because—you'll see
@@ -123,8 +119,36 @@ Here's where she meets Prince Charming But she won't discover that it's him 'til
      * Oh it's just me and my father, Maurice, he's an inventor. He wants to give up, he's had so much trouble getting his new contraption to work. But I believe in him! We also have a horse, Philippe.
 * Well thanks for talking to me, I'm off now, need to put my books in the basket and get to town. I hope Gaston isn't there! Last time I saw him he took my book and threw it into a puddle.
 
+## Step 4: Write Your Story With Code
+
+### Learn about Javascript Data Types
+Javascript can understand many different types of data, but you often need to tell it what kind of data you're using. For example you can tell Javascript to do 4 + 4. Javascript can do math so you'd expect 8 right? But if you wrap the "4+4" in quotes Javascript will instead return "4+4". If you wrap the fours themselves in strings like "4" + "4" Javascript will return "44". That's because the quotes tell Javascript your four is a "string", which is like a word, rather than a number. Yeah, you'd understand if I asked you "4+4" but Javascript is just a computer language, so it sometimes doesn't understand. 
+
+The reason this is important for our bots is that we need to send Facebook messages that it understands. Our writing can be seen as data as well. It needs to be the right type and also formatted correctly. The data types we'll be using are: objects, arrays, and strings mainly.
+
+We already learned about strings, but what about objects? You can think of objects as just a categorized list. For example you could make an object to organize a phone book. What kind of data would you put in a phone book? Can you think of an example entry?
+
+So like 
+> First name: Melissa
+> Last name: McEwen
+> Phone number : 555-555-555
+
+To turn that into something JS will understand, let's create an object. 
+
+First we want to declare a variable, the variable stores our data. So we can just use the variable in other things rather than writing the data over and over again. You can store any data type in a variable. And you can name it most anything, except you cannot use spaces and certain other characters in JS. 
+
+So I'll just name it Melissa. And to start an object all if have to do is use some "curly braces". 
+```javascript
+var melissa = {}
+
+```
+
+```javascript
+```
 
 
 
-testing 123
-![alt text](assets/images/artclique.gif "Logo Title Text 1")
+
+
+
+
