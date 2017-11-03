@@ -23,41 +23,13 @@ Our application won't interact directly with the browser at all. It will interac
 
 ### What are Chatbots?
 
-## Step 2: Create Your First App!
-### Glitch.com
-Our app already contains the instructions that Node uses to connect to FB. It sends FB specially formatted data and also listens for FB to send data back. But we need to connect it correctly so FB will trust it. We also need to give the application its own page - the page is what people who want to message our bot will message.
 
-### Become an official FB developer
-https://developers.facebook.com/apps
-![alt text](assets/images/createapp.jpg "creating an app")
-
-![alt text](assets/images/addmessenger.jpg "creating an app")
-
-### Create a FB Page For Your App
-
-![alt text](assets/images/createpage.jpg "creating an app")
-
-### Connect Your App To FB
-
-![alt text](assets/images/tokengen.jpg "creating an app")
-
-![alt text](assets/images/pagesubscription.jpg "creating an app")
-
-![alt text](assets/images/webhooks.jpg "creating an app")
-
-
-![alt text](assets/images/glitch-env.vars.jpg "creating an app")
-
-### Test our bot using the console
-
-### Troubleshooting
-
-## Step 3: Design Your Bot
+## Step 2: Design Your Bot
 
 ### Write Your Script
-Right now we'll be thinking about what kind of bot you want to build. And we'll start an exercise that will help us design it. Designing is one of the most important part of the process. I've provided three kits for helping us write our chatbots. Messages have a 640 character limit and questions should be about 20 characters, so be aware of that when writing your script.
+Right now we'll be thinking about what kind of bot you want to build. And we'll start an exercise that will help us design it. Designing is one of the most important part of the process. I've provided a kit for helping us write our chatbots. Messages have a 640 character limit and questions should be about 20 characters, so be aware of that when writing your script.
 
-There are few options in the sample project for your scripts. You can create a bot based on a character (fictional or real...including yourself), a quiz, and a story.
+There are few options in the sample project for your scripts. Let's start with a bot based on a character (fictional or real...including yourself). If we have time we can also create a quiz or a story.
 
 #### A Basic Character Script
 With an example!
@@ -119,6 +91,52 @@ Here's where she meets Prince Charming But she won't discover that it's him 'til
     * How's your family?
      * Oh it's just me and my father, Maurice, he's an inventor. He wants to give up, he's had so much trouble getting his new contraption to work. But I believe in him! We also have a horse, Philippe.
 * Well thanks for talking to me, I'm off now, need to put my books in the basket and get to town. I hope Gaston isn't there! Last time I saw him he took my book and threw it into a puddle.
+
+## Step 3: Create Your First App!
+### Glitch.com
+Our app already contains the instructions that Node uses to connect to FB. It sends FB specially formatted data and also listens for FB to send data back. But we need to connect it correctly so FB will trust it. We also need to give the application its own page - the page is what people who want to message our bot will message.
+
+### Become An Official FB Developer
+Becoming an official Facebook Developer is easy, you don't have to do much special, just go to [developers.facebook.com/apps](https://developers.facebook.com/apps) and accept the terms & conditions.
+
+After that we can create our first Facebook app. Name it after your bot and add your email.
+![alt text](assets/images/createapp.jpg "creating an app, you'll need to enter your bot's name and your email")
+
+Awesome! Your Facebook app is created, now we'll add Messenger to your app since you'll be able to talk to your bot through Messnger. Just head to "Add Product" on the sidebar and click "Set Up" under Messenger
+
+![alt text](assets/images/addmessenger.jpg "head to the add product dashboard and add messenger to your app.")
+
+### Create a FB Page For Your App
+
+When you message your chatbot you'll be messenging a Facebook Page. So we'll need to create a Facebook page. Head over to this link: [facebook.com/pages/create/](https://www.facebook.com/pages/create/). Select "brand or product" and then "app."
+
+![alt text](assets/images/createpage.jpg "creating a facebook page")
+
+:tada: Activity :tada:
+Decorate your Facebook page by adding a profile image, cover image, changing the description, and playing around with other settings. 
+
+![alt text](assets/images/your-bot-facebook-page.jpg "creating a facebook page")
+
+
+### Connect Your App To FB
+
+
+
+![alt text](assets/images/tokengen.jpg "creating an app")
+
+![alt text](assets/images/pagesubscription.jpg "creating an app")
+
+![alt text](assets/images/webhooks.jpg "creating an app")
+
+
+![alt text](assets/images/glitch-env.vars.jpg "creating an app")
+
+### Test our bot using the console
+
+### Troubleshooting
+
+
+
 
 ## Step 4: Write Your Story With Code
 
