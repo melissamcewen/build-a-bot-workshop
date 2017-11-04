@@ -100,6 +100,21 @@ Any app already existing on Glitch can be copied using the "remix" function. Hea
 
 ![alt text](assets/images/remix-glitch.jpg "remix the base project")
 
+Sweet, now you have your own app just like the one I made. We'll go over the files in more detail later but here's some info about each:
+
+* Assets is a folder where you can put images and other media if you want to use it in your project
+* ![key.env](https://glitch.com/edit/images/background-light/sidebar-file-icons/secrets.svg).env has secret info your app will use like passwords
+* README.md contains technical info about the project
+* Actions.js contains code for actions your app performs
+* api.js contains integrations for the Facebook API
+* app.js starts our server
+* messages.js is the code containing the messages our app sends
+* package.json tells Node.js what packages the app uses
+* server.js is the code for our server
+* welcome.html is our project's webpage
+
+
+
 ### Become An Official FB Developer
 Becoming an official Facebook Developer is easy, you don't have to do much special, just go to [developers.facebook.com/apps](https://developers.facebook.com/apps) and accept the terms & conditions.
 
@@ -182,7 +197,9 @@ We already learned about strings, but what about objects? You can think of objec
 
 So like 
 > First name: Melissa
+
 > Last name: McEwen
+
 > Phone number : 555-555-555
 
 To turn that into something JS will understand, let's create an object. 
