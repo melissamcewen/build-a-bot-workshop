@@ -140,12 +140,30 @@ If you're successful you should get a nice green checkmark. And now finally you'
 
 ![alt text](assets/images/webhooks.jpg "subscribe to your page")
 
+Back on Glitch we should check out something called the "Logs," it's where our app writes behind the scenes messages about what's going on. 
+![alt text](assets/images/logs.jpg "click here to access logs")
+
+If our app is working properly you should see a message indicting that the server is running.
+![alt text](assets/images/viewing-logs.jpg "viewing the log to see the messages")
 
 
-### Test Our Bot
+### Test Our Chatbot
+In order to message our chatbot, we'll need to go to our page and switch to "View As Page Visitor." You'll find that under the "..." menu.
 
-### Troubleshooting
+![alt text](assets/images/view-as-page-visitor.jpg "View as page visitor")
 
+Now we should see an active "Send Message" button and can click on it
+
+![alt text](assets/images/view-as-page-visitor-send-message.jpg "Click to message")
+
+If it's successful we should see a profile picture with some info and a "get started button"
+![alt text](assets/images/get-started-image.jpg "Click Get Started")
+
+Clicking that should trigger our first message, which should be from the example. We'll change it to yours soon.
+![alt text](assets/images/example-message.jpg "example message")
+
+In the meantime let's check out our logs. In our logs you can see what the server sent to our app when we clicked "get started"
+![alt text](assets/images/log-message.jpg "the message in our log")
 
 
 
@@ -186,7 +204,7 @@ Now I'll stick all that stuff into my Melissa variable
 
 ```javascript
 var melissa = {
-	phone : "555-555-5555",
+ phone : "555-555-5555",
  firstname: "melissa",
  lastname : "mcewen",
 }
