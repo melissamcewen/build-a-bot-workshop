@@ -21,6 +21,8 @@ But JS can also be used for so much more.
 ### What is Node.js?
 Our application won't interact directly with the browser at all. It will interact with Facebook, which has something called an API. API stands for Application programming interface, here it's just a set of things we can tell FB messenger to do. This collection of instructions will make up our Bot. 
 
+We're using Node.js to do that, which runs Javascript on a server framework. You can install more functionality for any Node.js application pretty easily using **packages**, which are like more applications you can install into your own application. They can do things like process code and help you debug your application.
+
 ### What are Chatbots?
 
 
@@ -105,11 +107,14 @@ Sweet, now you have your own app just like the one I made. We'll go over the fil
 * Assets is a folder where you can put images and other media if you want to use it in your project
 * ![key.env](https://glitch.com/edit/images/background-light/sidebar-file-icons/secrets.svg).env has secret info your app will use like passwords
 * README.md contains technical info about the project
-* Actions.js contains code for actions your app performs
+* actions.js contains code for actions your app performs like sending and receiving messages
 * api.js contains integrations for the Facebook API
 * app.js starts our server
-* messages.js is the code containing the messages our app sends
-* package.json tells Node.js what packages the app uses
+* messages.js is the code containing the text and formatting of messages our app sends
+* package.json tells Node.js what packages the app uses. If you remember packages from earlier, they are like other applications that can extend the functionality of ours. The ones the base project includes are:
+ * Express, which is a framework for created a simple server
+ * Body-parser, which helps our application understand incoming data from Facebook
+ * Request, a tool for sending data to Facebook
 * server.js is the code for our server
 * welcome.html is our project's webpage
 
