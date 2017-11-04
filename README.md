@@ -25,6 +25,7 @@ We're using Node.js to do that, which runs Javascript on a server framework. You
 
 ### What are Chatbots?
 
+Chatbots are just apps you can "chat" with. They've existed a long time. A human can send one a message and get a reply. You can reply with another message, a picture, a song, a video ... pretty much anything you can think of. They can exist anywhere can people send messages. Early chatbots chatted with people on Aol Instant Messenger and IRC, which were popular in the 2000s. These days Chatbots are popular on Facebook, Slack, and Amazon's Alexa.
 
 ## Step 2: Design Your Bot
 
@@ -276,6 +277,8 @@ var melissa = {
 
 ```
 ### Learn About Documentation
+
+Most APIs have something called documentation, which tell you the correct way to use them. You can find Facebook Messenger's [here](https://developers.facebook.com/docs/messenger-platform/). I'll tell you a bit about how to use it, but fee
 
 ### Write Our First FB Message in Code!
 
