@@ -96,6 +96,10 @@ Here's where she meets Prince Charming But she won't discover that it's him 'til
 ### Glitch.com
 Our app already contains the instructions that Node uses to connect to FB. It sends FB specially formatted data and also listens for FB to send data back. But we need to connect it correctly so FB will trust it. We also need to give the application its own page - the page is what people who want to message our bot will message.
 
+Any app already existing on Glitch can be copied using the "remix" function. Head over to the base project [I created](https://melissachatbot.glitch.me/).
+
+![alt text](assets/images/remix-glitch.jpg "remix the base project")
+
 ### Become An Official FB Developer
 Becoming an official Facebook Developer is easy, you don't have to do much special, just go to [developers.facebook.com/apps](https://developers.facebook.com/apps) and accept the terms & conditions.
 
@@ -233,7 +237,7 @@ These lists can also go inside our object
 
 ```javascript
 var melissa = {
-	phone : "555-555-5555",
+ phone : "555-555-5555",
  firstname: "melissa",
  lastname : "mcewen",
  favFoods : ["pizza", "hot dogs", "lettuce"]
