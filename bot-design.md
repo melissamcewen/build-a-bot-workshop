@@ -72,19 +72,19 @@ Belle Bot - a bot based the character from Beauty & The Beast
 
 * Oh hello! Sorry I didn't notice you, I've been reading this wonderful book. It's my favorite part because—you'll see
 Here's where she meets Prince Charming But she won't discover that it's him 'til Chapter Three! 
-* What do you like to do?
+* Your likes
   * In this little village there isn't much, Père Robert's bookstore is just about my favorite place to go. 
-    * Your fav book
+    * fav books
       * My favorite book lately is Romeo & Juliet. It's about two lovers in fair Verona. 
-    * Your dreams
+    * dreams
       *  am not sure exactly about all my dreams, but I know I want adventure in the great wide somewhere. I want it more than I can tell.
-    * Your dislikes
+    * dislikes
       * Well there is this man in town named Gaston. Boorish, brainless. He thinks I would want to be his wife. Can you imagine?
-* Tell me more about you
+* About you
   * I was just about to go for a walk in town, get a new book to read. I love reading. The library makes our small corner of the world feel big. 
-    * The town?
+    * The town
       * Our town isn't much. A quiet village, every day like the one before. Little town, full of little people. I want much more than this provincial life!
-    * How's your family?
+    * Your family
       * Oh it's just me and my father, Maurice, he's an inventor. He wants to give up, he's had so much trouble getting his new contraption to work. But I believe in him! We also have a horse, Philippe.
 * Well thanks for talking to me, I'm off now, need to put my books in the basket and get to town. I hope Gaston isn't there! Last time I saw him he took my book and threw it into a puddle.
 
