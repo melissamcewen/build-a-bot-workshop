@@ -2,7 +2,7 @@
 
 ![In Progess](https://img.shields.io/badge/In%20Progress--red.svg)
 
-In this workshop we'll build a Facebook chatbot in 5 easy steps. Along the way we'll learn the basics of building an application, the Javascript programming language, and Node.js which is a way to use Javascript to build applications.
+In this workshop we'll build a Facebook chatbot using code. Along the way we'll learn the basics of building an application, the Javascript programming language, and Node.js which is a way to use Javascript to build applications. The best part is this course requires no experience. You don't need *any* experience at all in code, you don't even have to know what Javascript is. But along the way you'll learn and hopefully build lots of your own bots in the future.
 
 ## Contents
 
