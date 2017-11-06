@@ -25,7 +25,7 @@ Track your class progress with this handy checklist
 - [ ] Setup your webhooks
 - [ ] Subscribe your page to the webhooks
 - [ ] View your Glitch app logs to ensure it's running
-- [ ] Test your chatbot
+- [ ] :tada: Activity: Test your chatbot
 
 ### Write Your Story With Code
 - [ ] :tada: Activity: Identify data structures
