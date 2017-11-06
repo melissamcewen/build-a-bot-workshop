@@ -6,11 +6,11 @@ In this workshop we'll build a Facebook chatbot in 5 easy steps. Along the way w
 
 ## Contents
 
-[Design Your Bot](bot-design.md)
-[Create Your Bot App](create-app.md)
-[Code Your Bot](write-code.md)
-[Teach Your Bot Cool Tricks](bot-tricks.md)
-[Next Steps](next-steps.md)
+* [Design Your Bot](bot-design.md)
+* [Create Your Bot App](create-app.md)
+* [Code Your Bot](write-code.md)
+* [Teach Your Bot Cool Tricks](bot-tricks.md)
+* [Next Steps](next-steps.md)
 
 
 
