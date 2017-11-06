@@ -97,7 +97,7 @@ Here's where she meets Prince Charming But she won't discover that it's him 'til
 
 #### :tada: **Activity** :tada:
 
-Let's put our story on notecards so we can organize it. Each answer should be on a *red* notecard, and each question should be a on *green* notecard. Arrange your notecards to show the pathway of how our chatbot can answer. 
+Let's put our story on notecards so we can organize it. Each answer should be on a *red* :red_circle: notecard, and each question should be a on :green_heart: *green* notecard. Arrange your notecards to show the pathway of how our chatbot can answer. 
 
 ## Step 3: Create Your First App!
 ### Glitch.com
@@ -337,7 +337,7 @@ Check out lines 19-53 in your actions.js, see if you can get your chatbot to res
 ### Map Your Story To Functions
 
 #### :tada: **Activity** :tada:
-Think of variable names for your questions that describe them but are valid Javascript variable names, put them on *yellow* notecards next to their corresponding question (the *green* cards). We should have a function for each of the green cards like this: 
+Think of variable names for your questions that describe them but are valid Javascript variable names, put them on *yellow* :yellow_heart: notecards next to their corresponding question (the *green* cards). We should have a function for each of the green cards like this: 
 
 ```javascript
   // if our payload/action is "get_started", send them a message with the following buttons
