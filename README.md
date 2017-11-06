@@ -81,18 +81,18 @@ Belle Bot - a bot based the character from Beauty & The Beast
 Here's where she meets Prince Charming But she won't discover that it's him 'til Chapter Three! 
 * What do you like to do?
   * In this little village there isn't much, Père Robert's bookstore is just about my favorite place to go. 
-    * What book were you reading?
-     * Romeo & Juliet. It's about two lovers in fair Verona. 
-    * Where do you want to go?
-     * I am not sure, but I know I want adventure in the great wide somewhere. I want it more than I can tell. 
-    * What's your least favorite part about the town?
-     * Well there is this name named Gaston. Boorish, brainless. He thinks I would want to be his wife. Can you imagine?
+    * Your fav book
+      * Romeo & Juliet. It's about two lovers in fair Verona. 
+    * Your dreams
+      * I am not sure, but I know I want adventure in the great wide somewhere. I want it more than I can tell. 
+    * Your dislikes
+      * Well there is this name named Gaston. Boorish, brainless. He thinks I would want to be his wife. Can you imagine?
 * Tell me more about you
   * I was just about to go for a walk in town, get a new book to read. There is nothing more I like to do here. 
     * The town?
-     * Yes, it's not much. A quite village, eery day like the one before. Little town, full of little people. I want much more than this provincial life!
+      * Yes, it's not much. A quite village, eery day like the one before. Little town, full of little people. I want much more than this provincial life!
     * How's your family?
-     * Oh it's just me and my father, Maurice, he's an inventor. He wants to give up, he's had so much trouble getting his new contraption to work. But I believe in him! We also have a horse, Philippe.
+      * Oh it's just me and my father, Maurice, he's an inventor. He wants to give up, he's had so much trouble getting his new contraption to work. But I believe in him! We also have a horse, Philippe.
 * Well thanks for talking to me, I'm off now, need to put my books in the basket and get to town. I hope Gaston isn't there! Last time I saw him he took my book and threw it into a puddle.
 
 #### :tada: **Activity** :tada:
