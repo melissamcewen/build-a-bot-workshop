@@ -123,7 +123,16 @@ Sweet, now you have your own app just like the one I made. We'll go over the fil
 * server.js is the code for our server
 * welcome.html is our project's webpage
 
+Some other things to know is Glitch is a live code editor, which means every time you make changes, your app will be updated.
 
+Also, all code has lines numbers. Sometimes we'll refer to the line numbers when looking at code. 
+![code line numbers](assets/images/code-line-numbers.jpg)
+
+
+
+If you make any changes you end up not liking and want to go back to the original, you can find it here [here at my Github repo](https://github.com/melissamcewen/melissachatbot).
+
+What is Github? It's just a place to store code and share it with other people using a revision control system called Git. Revision control allows you to see when things were changed, how they were changed, and who they were changed by. This makes it easy to go back to a previous version. 
 
 ### Become An Official FB Developer
 Becoming an official Facebook Developer is easy, you don't have to do much special, just go to [developers.facebook.com/apps](https://developers.facebook.com/apps) and accept the terms & conditions.
@@ -372,17 +381,21 @@ The function should refer to the following green cards below it in the outline, 
 
 
 
-### Write Your Story Code
-Ok now we're going to write some code with your green cards. 
 
 
 
-### Write The Functions For Your Responses
+
 
 ```javascript
 ```
 
 ## Add More Functionality To Your Chatbot
+
+### Respond to text messages
+
+### Send pictures
+
+### Create more cool stuff with chatbots
 
 
 ## Further Resources
