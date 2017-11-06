@@ -8,8 +8,38 @@
 }
 
 .menu-title {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 2.8em;
   font-weight: normal;
-  color: #159957;
+  color: #474747;
+  text-indent: 6px;
+  letter-spacing: -1px;
+}
+
+nav a {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 18px;
+  color: #474747;
+  text-indent: 3px;
+  font-weight: normal;
+
+}
+
+nav a.active {
+  color: #2879d0;
+}
+
+.nav-buttons {
+      margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 18px;
+  color: #474747;
+  text-indent: 3px;
+  font-weight: normal;
+
 }
