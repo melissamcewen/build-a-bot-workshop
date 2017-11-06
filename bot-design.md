@@ -7,6 +7,15 @@ Chatbots are just apps you can "chat" with. They've existed a long time. A human
 
 
 ### Example chatbots
+* [estherbot - a bot resume](http://www.estherbot.com/)
+* [poncho - a weather bot](https://www.messenger.com/t/hiponcho)
+* [mojihunt- an emoji game](https://www.messenger.com/t/mojihunt)
+* [whole foods-recipe bot](https://www.messenger.com/t/WholeFoods)
+* [sequel stories - a story bot](https://www.facebook.com/storiesonsequel/)
+
+
+#### :tada: **Activity** :tada:
+Message some of the example chatbots
 
 ### Write Your Script
 Right now we'll be thinking about what kind of bot you want to build. And we'll start an exercise that will help us design it. Designing is one of the most important part of the process. I've provided a kit for helping us write our chatbots. Messages have a 640 character limit and questions should be about 20 characters, so be aware of that when writing your script.
