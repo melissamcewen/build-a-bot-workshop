@@ -324,6 +324,42 @@ Head over to api.js in your Glitch app and take a look at that function. What do
 
 We also saw that the buttons were an array, that contained a reference to something called a "postback." A postback is just what the button should do when it is pressed, when the button is pressed it has a "payload" which is basically the name of the action triggered. Let's head to actions.js and look at a function there called receivedPostback. What do you think this does?
 
+
+#### :tada: **Activity** :tada:
+We're going to practice writing some functions using a site called [jsbin](http://jsbin.com/zuseqe/edit?js,console). See if you can get the myFunction to run and get you the secret code word. Then see if you can write your own function.
+
+```javascript
+// example function
+function exampleAdd(number1, number2) {
+  // console.log just logs the output of our function to the console over here ->
+  console.log("hello console")
+  // now we'll add the two  numbers
+  console.log(number1 + number2);
+}
+
+// call the example function
+exampleAdd(2, 2);
+
+// declaring a function
+function myFunction(argument) {
+  //let's store our answer in a variable
+  var answer = (argument * 2) - 42;
+  //now console.log the answer
+  // to combine words we taking strings and using + to put them together
+  console.log("look for line " + answer + " in messages.js for the answer");
+  
+}
+
+// call your function with the number 32 as the argument
+
+// now look in messages.js for the secret code word
+
+// Now let's write your own function to take your first and last name as arguments 
+// and log your full name to the console
+
+```
+
+
 Now in this function you're going to see something very important in Javascript. That's the if statement. It looks like this
 
 ```javascript
@@ -337,7 +373,7 @@ Basically what it is doing is saying if the button pressed had the action "get_s
 #### :tada: **Activity** :tada:
 Check out lines 19-53 in your actions.js, see if you can get your chatbot to respond with the 4 secret messages coded in this code. 
 
-### Map Your Story To Functions
+### Add Your Story To A Function
 
 #### :tada: **Activity** :tada:
 Think of action names for your questions that describe them but are simple lowercase words that are easy to code in, put them on *yellow* :yellow_heart: notecards next to their corresponding question (the :green_heart: *green* cards). 
