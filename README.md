@@ -340,7 +340,11 @@ Check out lines 19-53 in your actions.js, see if you can get your chatbot to res
 ### Map Your Story To Functions
 
 #### :tada: **Activity** :tada:
-Think of variable names for your questions that describe them but are valid Javascript variable names, put them on *yellow* :yellow_heart: notecards next to their corresponding question (the :green_heart: *green* cards). We should have a function for each of the green cards like this: 
+Think of variable names for your questions that describe them but are valid Javascript variable names, put them on *yellow* :yellow_heart: notecards next to their corresponding question (the :green_heart: *green* cards). 
+![adding our variable cards](assets/images/cards-story-2.jpg)
+
+Now we'll add them to our postback function, so that each time a button corresponding to the yellow cards we just created is pressed, the correct message and following buttons are presented:
+
 
 ```javascript
   // if our payload/action is "get_started", send them a message with the following buttons
