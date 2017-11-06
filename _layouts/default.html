@@ -11,7 +11,7 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name"><a href="{{site.baseurl}}">{{ site.title | default: site.github.repository_name }}</a></h1>
+      <h1 class="project-name"><a href="{{site.url}}" class="site-header"> 🤖Build A Bot Workshop🤖</a></h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
@@ -23,23 +23,25 @@
     </section>
 
     <section class="main-content">
-    <ul>
-     {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-
-        {% for p in navigation_pages %}
-          {% if p.navigation_weight %}
-            {% if p.title %}
-              <li>
-                <a href="{{site.baseurl}}{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-                 {% if p.url == page.url %} <b>{% endif %}
-                  {{ p.title }}   
-                  {% if p.url == page.url %} </b>{% endif %}
-                </a>
-                </li>
+     <nav class="menu">
+       <div class="menu-title">Menu:</div>
+       <ul>
+        {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+          {% for p in navigation_pages %}
+            {% if p.navigation_weight %}
+              {% if p.title %}
+                <li>
+                  <a href="{{site.baseurl}}{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+                   {% if p.url == page.url %} <b>{% endif %}
+                    {{ p.title }}   
+                    {% if p.url == page.url %} </b>{% endif %}
+                  </a>
+                  </li>
+              {% endif %}
             {% endif %}
-          {% endif %}
-        {% endfor %}
-      </ul>
+           {% endfor %}
+        </ul>
+      </nav>
 
 
 

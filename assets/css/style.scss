@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-header {
+  color: white;
+}
+
+.menu-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #159957;
+}
