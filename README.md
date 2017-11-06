@@ -282,14 +282,14 @@ Most APIs have something called documentation, which tell you the correct way to
 
 For now let's take a look at [Button Template](https://developers.facebook.com/docs/messenger-platform/send-messages/template/button). The Button Template is one of several different message templates available for Facebook chatbot messages. You saw it used in our test messages. If you scroll down you'll see what you need to send to the API to create one. Take a look at it. While it might look a bit complicated, it's made up of what we just saw before. What data types do you see?
 
-![an example API request for a button template](assets/images/button-types.jpg)
+![an example API request for a button template](assets/images/button-template.jpg)
 
 
 :tada: Activity :tada:
 Discuss what the three highlighted parts might mean and what data structures they contain. Now look at the following example then see if you can see what parts of the example message might go with each part.
 
 ![what parts of this correspond to the messsage](assets/images/send-greeting-puzzle.jpg)
-![what parts of this correspond to the messsage](assets/images/send-greeting-puzzle2.jpg)
+![what parts of this correspond to the messsage](assets/images/send-greeting-puzzle-2.jpg)
 
 
 
