@@ -48,6 +48,7 @@ Track your class progress with this handy checklist
 A blank copy of the story worksheet:
 
 ** What character will your bot have? Get creative: you can use an existing character, a new one you make up or even yourself!**
+
 -
 -
 -
@@ -55,6 +56,7 @@ A blank copy of the story worksheet:
 -
 
 **What things would you your character to tell people talking to them?**
+
 -
 -
 -
@@ -63,6 +65,7 @@ A blank copy of the story worksheet:
 
 
 **What kind of questions would someone ask your character in order to get them to say those things?**
+
 -
 -
 -
@@ -71,6 +74,7 @@ A blank copy of the story worksheet:
 
 
 **Now we need to give your conversation a flow - can you divide your questions up into some categories with about 2-3 questions per category?**
+
 -
 -
 -
