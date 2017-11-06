@@ -296,10 +296,8 @@ Discuss what the three highlighted parts might mean and what data structures the
 ![what parts of this correspond to the messsage](assets/images/send-greeting-puzzle-2.jpg)
 
 
-
-
 ### Learn About Functions
-In the previous activity you figured out how a message was formatted with data structures. But you also looked at our first function. A function takes arguments, a type of input, and does things with this. In this case, it took a variable called recipientId as an argument, and took the message and sent it to that recipient. 
+In the previous activity you figured out how a message was formatted with data structures. But you also looked at our first function. A function takes arguments, a type of input, and does things with this. In this case, it took a variable called recipientId as an argument, and took the message and sent it to that recipient. A function can have any name similar to the names allowed for variables.
 
 What a function is called it looks like this:
 ```javascript
@@ -325,9 +323,15 @@ Now in this function you're going to see something very important in Javascript.
 Basically what it is doing is saying if the button pressed had the action "get_started" then we do the function in the curly braces {}. What if it's not? Well look at the next if statement. What's that looking for? What do you think we need to do to make all our actions work? 
 
 #### :tada: **Activity** :tada:
-Turn the actions of your outline into variable names. 
+Think of variable names for your questions that describe them but are valid Javascript variable names, put them on *yellow* notecards next to their corresponding question (the *green* cards). 
 
-### Write Our First FB Message in Code!
+Think of function names for all your responses, put them on *blue* notecards next to their corresponding responses. 
+
+
+### Add The Actions To Your Postback Functions
+Now we'll use those yellow notecards to write some code. 
+
+### Write The Functions For Your Responses
 
 ```javascript
 ```
