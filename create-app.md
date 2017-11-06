@@ -1,18 +1,24 @@
-## Create Your First App!
+---
+title: Create Your First App
+navigation_weight: 3
+---
 
-### What is Javascript?
+
+# Create Your First App!
+
+## What is Javascript?
 Our app will be built using Javascript. Javascript is probably the most famous of all computer languages. A computer language is simply a way for us to tell computers what to do. Javascript is critical to the internet because it's the language your browser understands. HTML and CSS are the structure and appearance, but JS makes the web interactive. Want to play a video? See the latest FB updates automatically without refreshing your browser? Chat with your friends? Play a game on the web? [JS makes that possible.](https://medium.freecodecamp.org/what-the-web-looks-like-without-javascript-c7eaf09c9983) 
 
 ![the web without js](assets/images/nojs.jpg "the web without js")
 
 But JS can also be used for so much more. 
 
-### What is Node.js?
+## What is Node.js?
 Our application won't interact directly with the browser at all. It will interact with Facebook, which has something called an API. API stands for Application programming interface, here it's just a set of things we can tell FB messenger to do. This collection of instructions will make up our Bot. 
 
 We're using Node.js to do that, which runs Javascript on a server framework. You can install more functionality for any Node.js application pretty easily using **packages**, which are like more applications you can install into your own application. They can do things like process code and help you debug your application.
 
-### What is an app?
+## What is an app?
 App is short for application, it's just a computer program that can perform functions, activities, or tasks. Every application needs a home, and since our application needs to talk to Facebook, which lives on the internet, it will need to live on the internet too. A home that allows an application to talk to the internet is called a "server." In the olden days, a server was a physical object, but nowadays they often are "virtual" which means hundreds or thousands of virtual servers are in one giant physical server. So it's more like a condo than a house.
 
 A great place for an app to live is Glitch, which uses containers to further subdivided a virtual server-  it's more like having a room in a shared apartment. You share the kitchen, which is like the operating system, but have your own bedroom which is like your own application. It's free and more importantly it's easy and you can edit the application as long as you connected to the internet. Also Glitch has a lot of basic apps you can just copy by "remixing them."
@@ -20,7 +26,7 @@ A great place for an app to live is Glitch, which uses containers to further sub
 
 
 
-### Glitch.com
+## Glitch.com
 Our app already contains the instructions that Node uses to connect to FB. It sends FB specially formatted data and also listens for FB to send data back. But we need to connect it correctly so FB will trust it. We also need to give the application its own page - the page is what people who want to message our bot will message.
 
 Any app already existing on Glitch can be copied using the "remix" function. Head over to the base project [I created](https://melissachatbot.glitch.me/).
@@ -71,13 +77,13 @@ When you message your chatbot you'll be messenging a Facebook Page. So we'll nee
 
 ![creating a facebook page](assets/images/createpage.jpg "creating a facebook page")
 
-#### :tada: **Activity** :tada:
+### :tada: **Activity** :tada:
 Decorate your Facebook page by adding a profile image, cover image, changing the description, and playing around with other settings. 
 
 ![decorate your fb page](assets/images/your-bot-facebook-page.jpg)
 
 
-### Connect Your App To FB
+## Connect Your App To FB
 Ok so now we have a Facebook app and a Glitch app. They'll need to talk to each other for our bot to work. So let's connect them!
 
 So Facebook wants to make sure it's you on Glitch and not some terrible hacker or something. So we'll need what's essentially two passwords. One is the Page Access Token, which gives it permission to use your page, the other is Verify Token, which the Glitch app belongs to you. You'll stick both into Glitch in a special file called .env. That file is private, so even if you share your app, people won't be able to view it. One thing to know about it is do not put spaces in it, or it won't work.

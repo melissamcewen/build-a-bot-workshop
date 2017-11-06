@@ -1,6 +1,13 @@
-## Step 4: Write Your Story With Code
+---
+title:  Write Your Story With Code
+navigation_weight: 4
+---
 
-### Learn about Javascript Data Types
+
+
+# Step 4: Write Your Story With Code
+
+## Learn about Javascript Data Types
 Javascript can understand many different types of data, but you often need to tell it what kind of data you're using. For example you can tell Javascript to do 4 + 4. Javascript can do math so you'd expect 8 right? But if you wrap the "4+4" in quotes Javascript will instead return "4+4". If you wrap the fours themselves in strings like "4" + "4" Javascript will return "44". That's because the quotes tell Javascript your four is a "string", which is like a word, rather than a number. Yeah, you'd understand if I asked you "4+4" but Javascript is just a computer language, so it sometimes doesn't understand. 
 
 The reason this is important for our bots is that we need to send Facebook messages that it understands. Our writing can be seen as data as well. It needs to be the right type and also formatted correctly. The data types we'll be using are: objects, arrays, and strings mainly.
@@ -73,7 +80,7 @@ var melissa = {
 }
 
 ```
-### Learn About Documentation
+## Learn About Documentation
 
 Most APIs have something called documentation, which tell you the correct way to use them. You can find Facebook Messenger's [here](https://developers.facebook.com/docs/messenger-platform/). I'll tell you a bit about how to use it, but feel free to browse around. 
 
@@ -89,7 +96,7 @@ Discuss what the three highlighted parts might mean and what data structures the
 ![what parts of this correspond to the messsage](assets/images/send-greeting-puzzle-2.jpg)
 
 
-### Learn About Functions
+## Learn About Functions
 In the previous activity you figured out how a message was formatted with data structures. But you also looked at our first function. A function takes arguments, a type of input, and does things with this. In this case, it took a variable called recipientId as an argument, and took the message and sent it to that recipient. A function can have any name similar to the names allowed for variables.
 
 What a function is called it looks like this:
@@ -106,7 +113,7 @@ Head over to api.js in your Glitch app and take a look at that function. What do
 We also saw that the buttons were an array, that contained a reference to something called a "postback." A postback is just what the button should do when it is pressed, when the button is pressed it has a "payload" which is basically the name of the action triggered. Let's head to actions.js and look at a function there called receivedPostback. What do you think this does?
 
 
-#### :tada: **Activity** :tada:
+### :tada: **Activity** :tada:
 We're going to practice writing some functions using a site called [jsbin](http://jsbin.com/zuseqe/edit?js,console). See if you can get the myFunction to run and get you the secret code word. Then see if you can write your own function.
 
 ```javascript
@@ -151,12 +158,12 @@ Now take a look at the receivedPostback function in your actions.js file. You're
 
 Basically what it is doing is saying if the button pressed had the action "get_started" then we do the function in the curly braces {}. What if it's not? Well look at the next if statement. What's that looking for? What do you think we need to do to make all our actions work? 
 
-#### :tada: **Activity** :tada:
+### :tada: **Activity** :tada:
 Check out lines 19-53 in your actions.js, see if you can get your chatbot to respond with the 4 secret messages coded in this code. 
 
-### Add Your Story To A Function
+## Add Your Story To A Function
 
-#### :tada: **Activity** :tada:
+### :tada: **Activity** :tada:
 Think of action names for your questions that describe them but are simple lowercase words that are easy to code in, put them on *yellow* :yellow_heart: notecards next to their corresponding question (the :green_heart: *green* cards). 
 ![adding our variable cards](assets/images/cards-story2.jpg)
 

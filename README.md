@@ -1,3 +1,9 @@
+---
+title: Build A Bot Workshop Intro
+navigation_weight: 1
+---
+
+
 # Build A Bot Workshop
 
 ![In Progess](https://img.shields.io/badge/In%20Progress--red.svg)

@@ -1,12 +1,17 @@
-## Step 1: Design Your Bot
+---
+title: Design Your Bot
+navigation_weight: 2
+---
+
+# Step 1: Design Your Bot
 
 
-### What are Chatbots?
+## What are Chatbots?
 
 Chatbots are just apps you can "chat" with. They've existed a long time. A human can send one a message and get a reply. You can reply with another message, a picture, a song, a video ... pretty much anything you can think of. They can exist anywhere can people send messages. Early chatbots chatted with people on Aol Instant Messenger and IRC, which were popular in the 2000s. These days Chatbots are popular on Facebook, Slack, and Amazon's Alexa.
 
 
-### Example chatbots
+## Example chatbots
 * [estherbot - a bot resume](http://www.estherbot.com/)
 * [poncho - a weather bot](https://www.messenger.com/t/hiponcho)
 * [mojihunt- an emoji game](https://www.messenger.com/t/mojihunt)
@@ -14,15 +19,15 @@ Chatbots are just apps you can "chat" with. They've existed a long time. A human
 * [sequel stories - a story bot](https://www.facebook.com/storiesonsequel/)
 
 
-#### :tada: **Activity** :tada:
+### :tada: **Activity** :tada:
 Message some of the example chatbots
 
-### Write Your Script
+## Write Your Script
 Right now we'll be thinking about what kind of bot you want to build. And we'll start an exercise that will help us design it. Designing is one of the most important part of the process. I've provided a kit for helping us write our chatbots. Messages have a 640 character limit and questions should be about 20 characters, so be aware of that when writing your script.
 
 There are few options in the sample project for your scripts. Let's start with a bot based on a character (fictional or real...including yourself). If we have time we can also create a quiz or a story.
 
-#### A Basic Character Script
+### A Basic Character Script
 With an example!
 
 **What character will your bot have? Get creative: you can use an existing character, a new one you make up or even yourself!**
@@ -83,7 +88,7 @@ Here's where she meets Prince Charming But she won't discover that it's him 'til
       * Oh it's just me and my father, Maurice, he's an inventor. He wants to give up, he's had so much trouble getting his new contraption to work. But I believe in him! We also have a horse, Philippe.
 * Well thanks for talking to me, I'm off now, need to put my books in the basket and get to town. I hope Gaston isn't there! Last time I saw him he took my book and threw it into a puddle.
 
-#### :tada: **Activity** :tada:
+### :tada: **Activity** :tada:
 
 Let's put our story on notecards so we can organize it. Each answer should be on a *pink* :cherry_blossom: notecard, and each question should be a on :green_heart: *green* notecard. Arrange your notecards to show the pathway of how our chatbot can answer. 
 

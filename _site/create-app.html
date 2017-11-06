@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Create Your First App | build-a-bot-workshop</title>
+<meta property="og:title" content="Create Your First App">
+<meta property="og:locale" content="en_US">
+<link rel="canonical" href="http://localhost:4000/create-app.html">
+<meta property="og:url" content="http://localhost:4000/create-app.html">
+<meta property="og:site_name" content="build-a-bot-workshop">
+<script type="application/ld+json">
+{"name":null,"description":null,"author":null,"@type":"WebPage","url":"http://localhost:4000/create-app.html","publisher":null,"image":null,"headline":"Create Your First App","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=578c183fada45bcfcf41abead3a6bebbdea2efa2">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">build-a-bot-workshop</h1>
+      <h2 class="project-tagline"></h2>
+      
+        <a href="http://github.com/melissamcewen/build-a-bot-workshop" class="btn">View on GitHub</a>
+      
+      
+    </section>
+
+    <section class="main-content">
+    <ul>
+     
+
+        
+          
+            
+                    <li>
+          <a href="/README.html">
+           
+            Build A Bot Workshop Intro   
+           
+          </a>
+        </li>
+            
+          
+        
+          
+            
+                    <li>
+          <a href="/bot-design.html">
+           
+            Design Your Bot   
+           
+          </a>
+        </li>
+            
+          
+        
+          
+            
+                    <li>
+          <a href="/create-app.html" class="active">
+            <b>
+            Create Your First App   
+            </b>
+          </a>
+        </li>
+            
+          
+        
+          
+            
+                    <li>
+          <a href="/write-code.html">
+           
+            Write Your Story With Code   
+           
+          </a>
+        </li>
+            
+          
+        
+          
+            
+                    <li>
+          <a href="/bot-tricks.html">
+           
+            Teach Your Bot Cool Tricks   
+           
+          </a>
+        </li>
+            
+          
+        
+      </ul>
+
+
+
+     <h1 id="create-your-first-app">Create Your First App!</h1>
+
+<h2 id="what-is-javascript">What is Javascript?</h2>
+<p>Our app will be built using Javascript. Javascript is probably the most famous of all computer languages. A computer language is simply a way for us to tell computers what to do. Javascript is critical to the internet because it’s the language your browser understands. HTML and CSS are the structure and appearance, but JS makes the web interactive. Want to play a video? See the latest FB updates automatically without refreshing your browser? Chat with your friends? Play a game on the web? <a href="https://medium.freecodecamp.org/what-the-web-looks-like-without-javascript-c7eaf09c9983">JS makes that possible.</a></p>
+
+<p><img src="assets/images/nojs.jpg" alt="the web without js" title="the web without js"></p>
+
+<p>But JS can also be used for so much more.</p>
+
+<h2 id="what-is-nodejs">What is Node.js?</h2>
+<p>Our application won’t interact directly with the browser at all. It will interact with Facebook, which has something called an API. API stands for Application programming interface, here it’s just a set of things we can tell FB messenger to do. This collection of instructions will make up our Bot.</p>
+
+<p>We’re using Node.js to do that, which runs Javascript on a server framework. You can install more functionality for any Node.js application pretty easily using <strong>packages</strong>, which are like more applications you can install into your own application. They can do things like process code and help you debug your application.</p>
+
+<h2 id="what-is-an-app">What is an app?</h2>
+<p>App is short for application, it’s just a computer program that can perform functions, activities, or tasks. Every application needs a home, and since our application needs to talk to Facebook, which lives on the internet, it will need to live on the internet too. A home that allows an application to talk to the internet is called a “server.” In the olden days, a server was a physical object, but nowadays they often are “virtual” which means hundreds or thousands of virtual servers are in one giant physical server. So it’s more like a condo than a house.</p>
+
+<p>A great place for an app to live is Glitch, which uses containers to further subdivided a virtual server-  it’s more like having a room in a shared apartment. You share the kitchen, which is like the operating system, but have your own bedroom which is like your own application. It’s free and more importantly it’s easy and you can edit the application as long as you connected to the internet. Also Glitch has a lot of basic apps you can just copy by “remixing them.”</p>
+
+<h2 id="glitchcom">Glitch.com</h2>
+<p>Our app already contains the instructions that Node uses to connect to FB. It sends FB specially formatted data and also listens for FB to send data back. But we need to connect it correctly so FB will trust it. We also need to give the application its own page - the page is what people who want to message our bot will message.</p>
+
+<p>Any app already existing on Glitch can be copied using the “remix” function. Head over to the base project <a href="https://melissachatbot.glitch.me/">I created</a>.</p>
+
+<p><img src="assets/images/remix-glitch.jpg" alt="remix the base project" title="remix the base project"></p>
+
+<p>Sweet, now you have your own app just like the one I made. We’ll go over the files in more detail later but here’s some info about each:</p>
+
+<ul>
+  <li>Assets is a folder where you can put images and other media if you want to use it in your project</li>
+  <li>
+<img src="https://glitch.com/edit/images/background-light/sidebar-file-icons/secrets.svg" alt="key.env">.env has secret info your app will use like passwords</li>
+  <li>README.md contains technical info about the project</li>
+  <li>actions.js contains code for actions your app performs like sending and receiving messages</li>
+  <li>api.js contains integrations for the Facebook API</li>
+  <li>app.js starts our server</li>
+  <li>messages.js is the code containing the text and formatting of messages our app sends</li>
+  <li>package.json tells Node.js what packages the app uses. If you remember packages from earlier, they are like other applications that can extend the functionality of ours. The ones the base project includes are:</li>
+  <li>Express, which is a framework for created a simple server</li>
+  <li>Body-parser, which helps our application understand incoming data from Facebook</li>
+  <li>Request, a tool for sending data to Facebook</li>
+  <li>server.js is the code for our server</li>
+  <li>welcome.html is our project’s webpage</li>
+</ul>
+
+<p>Some other things to know is Glitch is a live code editor, which means every time you make changes, your app will be updated.</p>
+
+<p>Also, all code has lines numbers. Sometimes we’ll refer to the line numbers when looking at code. 
+<img src="/assets/images/code-line-numbers.jpg" alt="code line numbers"></p>
+
+<p>If you make any changes you end up not liking and want to go back to the original, you can find it here <a href="https://github.com/melissamcewen/melissachatbot">here at my Github repo</a>.</p>
+
+<p>What is Github? It’s just a place to store code and share it with other people using a revision control system called Git. Revision control allows you to see when things were changed, how they were changed, and who they were changed by. This makes it easy to go back to a previous version.</p>
+
+<h3 id="become-an-official-fb-developer">Become An Official FB Developer</h3>
+<p>Becoming an official Facebook Developer is easy, you don’t have to do much special, just go to <a href="https://developers.facebook.com/apps">developers.facebook.com/apps</a> and accept the terms &amp; conditions.</p>
+
+<p>After that we can create our first Facebook app. Name it after your bot and add your email.</p>
+
+<p><img src="/assets/images/createapp.jpg" alt="creating an app, you'll need to enter your bot's name and your email"></p>
+
+<p>Awesome! Your Facebook app is created, now we’ll add Messenger to your app since you’ll be able to talk to your bot through Messnger. Just head to “Add Product” on the sidebar and click “Set Up” under Messenger</p>
+
+<p><img src="/assets/images/addmessenger.jpg" alt="head to the add product dashboard and add messenger to your app"></p>
+
+<h3 id="create-a-fb-page-for-your-app">Create a FB Page For Your App</h3>
+
+<p>When you message your chatbot you’ll be messenging a Facebook Page. So we’ll need to create a Facebook page. Head over to this link: <a href="https://www.facebook.com/pages/create/">facebook.com/pages/create/</a>. Select “brand or product” and then “app.”</p>
+
+<p><img src="assets/images/createpage.jpg" alt="creating a facebook page" title="creating a facebook page"></p>
+
+<h3 id="tada-activity-tada">
+<img class="emoji" title=":tada:" alt=":tada:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png" height="20" width="20"> <strong>Activity</strong> <img class="emoji" title=":tada:" alt=":tada:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png" height="20" width="20">
+</h3>
+<p>Decorate your Facebook page by adding a profile image, cover image, changing the description, and playing around with other settings.</p>
+
+<p><img src="/assets/images/your-bot-facebook-page.jpg" alt="decorate your fb page"></p>
+
+<h2 id="connect-your-app-to-fb">Connect Your App To FB</h2>
+<p>Ok so now we have a Facebook app and a Glitch app. They’ll need to talk to each other for our bot to work. So let’s connect them!</p>
+
+<p>So Facebook wants to make sure it’s you on Glitch and not some terrible hacker or something. So we’ll need what’s essentially two passwords. One is the Page Access Token, which gives it permission to use your page, the other is Verify Token, which the Glitch app belongs to you. You’ll stick both into Glitch in a special file called .env. That file is private, so even if you share your app, people won’t be able to view it. One thing to know about it is do not put spaces in it, or it won’t work.</p>
+
+<p>The Page Access Token is generated by facebook, head to the Messenger section of your app and select your page to get one.</p>
+
+<p><img src="/assets/images/tokengen.jpg" alt="generate a token"></p>
+
+<p>Great, now let’s head to Glitch and copy it in</p>
+
+<p><img src="/assets/images/glitch-env-vars.jpg" alt="your Env vars"></p>
+
+<p>OK now it’s time to create a verify token. It can be anything, but it’s a password so chose something good. I’ve given an example here which is not my app’s password, but this is not something you should share otherwise. Put it in your that same .env file. Now we’ll head back to the facebook page and tell it about our Glitch app, using something called a Webhook. A web hook is essentially the connection between your Glitch app and your Facebook app, allowing them to send messages back and forth. On your app in the Messenger section, scroll down to find the “Webhooks” section. Click “Setup Webhooks.”</p>
+
+<p><img src="/assets/images/setup-webhooks.jpg" alt="click to set up your webhook"></p>
+
+<p>you’ll see the following form. Enter you Glitch app URL with “/webhook” at the end and your Verify Token</p>
+
+<p><img src="/assets/images/pagesubscription.jpg" alt="connecting the Webhook to glitch."></p>
+
+<p>If you’re successful you should get a nice green checkmark. And now finally you’ll subscribe so it knows what page to use to send and receive messages.</p>
+
+<p><img src="/assets/images/webhooks.jpg" alt="subscribe to your page"></p>
+
+<p>Back on Glitch we should check out something called the “Logs,” it’s where our app writes behind the scenes messages about what’s going on.</p>
+
+<p><img src="/assets/images/logs.jpg" alt="click here to access logs"></p>
+
+<p>If our app is working properly you should see a message indicting that the server is running.</p>
+
+<p><img src="/assets/images/viewing-logs.jpg" alt="viewing the log to see the messages"></p>
+
+<h3 id="test-our-chatbot">Test Our Chatbot</h3>
+<p>In order to message our chatbot, we’ll need to go to our page and switch to “View As Page Visitor.” You’ll find that under the “…” menu.</p>
+
+<p><img src="assets/images/view-as-page-visitor.jpg" alt="View as page visitor" title="View as page visitor"></p>
+
+<p>Now we should see an active “Send Message” button and can click on it</p>
+
+<p><img src="assets/images/view-as-page-visitor-send-message.jpg" alt="Click to message" title="Click to message"></p>
+
+<p>If it’s successful we should see a profile picture with some info and a “get started button”</p>
+
+<p><img src="assets/images/get-started-image.jpg" alt="Click Get Started" title="Click Get Started"></p>
+
+<p>Clicking that should trigger our first message, which should be from the example. We’ll change it to yours soon.</p>
+
+<p><img src="assets/images/example-message.jpg" alt="example message" title="example message"></p>
+
+<p>In the meantime let’s check out our logs. In our logs you can see what the server sent to our app when we clicked “get started”</p>
+
+<p><img src="assets/images/log-message.jpg" alt="the message in our log" title="the message in our log"></p>
+
+
+     <div>
+
+      
+        
+          
+          
+        
+          
+          
+        
+          
+            
+                <a href="http://localhost:4000/bot-design.html">←Design Your Bot</a> |
+            
+            
+                  
+
+                | <a href="http://localhost:4000/write-code.html"> Write Your Story With Code→</a>
+            
+          
+          
+        
+          
+          
+        
+          
+          
+        
+    </div>
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="http://github.com/melissamcewen/build-a-bot-workshop">build-a-bot-workshop</a> is maintained by <a href="http://github.com/melissamcewen">melissamcewen</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </section>
+
+    
+  </body>
+</html>

@@ -1,14 +1,18 @@
+---
+title: Teach Your Bot Cool Tricks
+navigation_weight: 5
+---
 
-## Add More Functionality To Your Chatbot
+# Add More Functionality To Your Chatbot
 
-### Add your friends as testers
+## Add your friends as testers
 
-### Respond to text messages
+## Respond to text messages
 
-### Send pictures
+## Send pictures
 
-### Send links
+## Send links
 
-### Understand various types of greetings
+## Understand various types of greetings
 
-### Create more cool stuff with chatbots
+## Create more cool stuff with chatbots
