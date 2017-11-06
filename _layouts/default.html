@@ -23,7 +23,7 @@
     </section>
 
     <section class="main-content">
-    <h1> {{site.url }} {{ site.baseurl }}</h1>
+    <h1> {{site.url }} {{ site.baseurl }} testing 123</h1>
     <ul>
      {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
 
@@ -31,7 +31,7 @@
           {% if p.navigation_weight %}
             {% if p.title %}
               <li>
-                <a href="{{site.baseurl}}{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+                <a href="{{ p.url | relative_url }}" {% if p.url == page.url %}class="active"{% endif %}>
                  {% if p.url == page.url %} <b>{% endif %}
                   {{ p.title }}   
                   {% if p.url == page.url %} </b>{% endif %}
