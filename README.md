@@ -95,6 +95,10 @@ Here's where she meets Prince Charming But she won't discover that it's him 'til
      * Oh it's just me and my father, Maurice, he's an inventor. He wants to give up, he's had so much trouble getting his new contraption to work. But I believe in him! We also have a horse, Philippe.
 * Well thanks for talking to me, I'm off now, need to put my books in the basket and get to town. I hope Gaston isn't there! Last time I saw him he took my book and threw it into a puddle.
 
+#### :tada: **Activity** :tada:
+
+Let's put our story on notecards so we can organize it. Each answer should be on a *red* notecard, and each question should be a on *green* notecard. Arrange your notecards to show the pathway of how our chatbot can answer. 
+
 ## Step 3: Create Your First App!
 ### Glitch.com
 Our app already contains the instructions that Node uses to connect to FB. It sends FB specially formatted data and also listens for FB to send data back. But we need to connect it correctly so FB will trust it. We also need to give the application its own page - the page is what people who want to message our bot will message.
@@ -138,7 +142,7 @@ When you message your chatbot you'll be messenging a Facebook Page. So we'll nee
 
 ![creating a facebook page](assets/images/createpage.jpg "creating a facebook page")
 
-:tada: Activity :tada:
+#### :tada: **Activity** :tada:
 Decorate your Facebook page by adding a profile image, cover image, changing the description, and playing around with other settings. 
 
 ![decorate your fb page](assets/images/your-bot-facebook-page.jpg)
@@ -285,7 +289,7 @@ For now let's take a look at [Button Template](https://developers.facebook.com/d
 ![an example API request for a button template](assets/images/button-template.jpg)
 
 
-:tada: Activity :tada:
+:tada: **Activity** :tada:
 Discuss what the three highlighted parts might mean and what data structures they contain. Now look at the following example then see if you can see what parts of the example message might go with each part.
 
 ![what parts of this correspond to the messsage](assets/images/send-greeting-puzzle.jpg)
@@ -320,7 +324,7 @@ Now in this function you're going to see something very important in Javascript.
 
 Basically what it is doing is saying if the button pressed had the action "get_started" then we do the function in the curly braces {}. What if it's not? Well look at the next if statement. What's that looking for? What do you think we need to do to make all our actions work? 
 
-:tada: Activity :tada:
+#### :tada: **Activity** :tada:
 Turn the actions of your outline into variable names. 
 
 ### Write Our First FB Message in Code!
