@@ -7,6 +7,7 @@ In this workshop we'll build a Facebook chatbot using code. Along the way we'll 
 * A computer :computer:, any computer is fine. We're serious. 
 * A Facebook account
 * some colored index cards
+* [You may want to print out or save the workshop checklist and blank worksheets to help you follow along](appendix.md)
 
 ## Contents
 
