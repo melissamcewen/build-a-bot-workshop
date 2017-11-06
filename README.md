@@ -340,8 +340,20 @@ Check out lines 19-53 in your actions.js, see if you can get your chatbot to res
 ### Map Your Story To Functions
 
 #### :tada: **Activity** :tada:
-Think of variable names for your questions that describe them but are valid Javascript variable names, put them on *yellow* :yellow_heart: notecards next to their corresponding question (the :green_heart: *green* cards). 
+Think of action names for your questions that describe them but are simple lowercase words that are easy to code in, put them on *yellow* :yellow_heart: notecards next to their corresponding question (the :green_heart: *green* cards). 
 ![adding our variable cards](assets/images/cards-story2.jpg)
+
+The example actions here are:
+* get_started
+* goodbye
+* life
+* dislikes
+* town
+* family
+* books
+* dreams
+* likes
+
 
 Now we'll add them to our postback function, so that each time a button corresponding to the yellow cards we just created is pressed, the correct message and following buttons are presented:
 
@@ -386,9 +398,7 @@ The function should refer to the following green cards below it in the outline, 
   
 ```
 
-
-
-
+These are already coded into the example app, you can simply change the wording. If you need more of them, you can copy and paste. Once you've finished it's time to test your bot out. Does it work? 
 
 
 
@@ -398,11 +408,18 @@ The function should refer to the following green cards below it in the outline, 
 
 ## Add More Functionality To Your Chatbot
 
+### Add your friends as testers
+
 ### Respond to text messages
 
 ### Send pictures
 
+### Send links
+
+### Understand various types of greetings
+
 ### Create more cool stuff with chatbots
+
 
 
 ## Further Resources
