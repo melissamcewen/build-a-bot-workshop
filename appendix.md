@@ -44,7 +44,9 @@ Track your class progress with this handy checklist
 
 
 ## Story Worksheet
+
 A blank copy of the story worksheet:
+
 ** What character will your bot have? Get creative: you can use an existing character, a new one you make up or even yourself!**
 -
 -
