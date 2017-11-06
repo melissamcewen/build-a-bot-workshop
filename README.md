@@ -360,7 +360,7 @@ function myFunction(argument) {
 ```
 
 
-Now in this function you're going to see something very important in Javascript. That's the if statement. It looks like this
+Now take a look at the receivedPostback function in your actions.js file. You're going to see something very important in Javascript. That's the if statement. It looks like this
 
 ```javascript
   if (payload === "get_started"){
