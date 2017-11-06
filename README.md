@@ -278,7 +278,50 @@ var melissa = {
 ```
 ### Learn About Documentation
 
-Most APIs have something called documentation, which tell you the correct way to use them. You can find Facebook Messenger's [here](https://developers.facebook.com/docs/messenger-platform/). I'll tell you a bit about how to use it, but fee
+Most APIs have something called documentation, which tell you the correct way to use them. You can find Facebook Messenger's [here](https://developers.facebook.com/docs/messenger-platform/). I'll tell you a bit about how to use it, but feel free to browse around. 
+
+For now let's take a look at [Button Template](https://developers.facebook.com/docs/messenger-platform/send-messages/template/button). The Button Template is one of several different message templates available for Facebook chatbot messages. You saw it used in our test messages. If you scroll down you'll see what you need to send to the API to create one. Take a look at it. While it might look a bit complicated, it's made up of what we just saw before. What data types do you see?
+
+![an example API request for a button template](assets/images/button-types.jpg)
+
+
+:tada: Activity :tada:
+Discuss what the three highlighted parts might mean and what data structures they contain. Now look at the following example then see if you can see what parts of the example message might go with each part.
+
+![what parts of this correspond to the messsage](assets/images/send-greeting-puzzle.jpg)
+![what parts of this correspond to the messsage](assets/images/send-greeting-puzzle2.jpg)
+
+
+
+
+### Learn About Functions
+In the previous activity you figured out how a message was formatted with data structures. But you also looked at our first function. A function takes arguments, a type of input, and does things with this. In this case, it took a variable called recipientId as an argument, and took the message and sent it to that recipient. 
+
+What a function is called it looks like this:
+```javascript
+functionName(argument)
+```
+The function we looked at called another functon 
+
+```javascript
+  API.callSendAPI(messageData);
+```
+Head over to api.js in your Glitch app and take a look at that function. What does it take as an input? What do you think it does?
+
+We also saw that the buttons were an array, that contained a reference to something called a "postback." A postback is just what the button should do when it is pressed. Let's head to actions.js and look at a function there called receivedPostback. What do you think this does?
+
+Now in this function you're going to see something very important in Javascript. That's the if statement. It looks like this
+
+```javascript
+  if (payload === "get_started"){
+      Messages.sendGreeting(senderID);
+  }
+```
+
+Basically what it is doing is saying if the button pressed had the action "get_started" then we do the function in the curly braces {}. What if it's not? Well look at the next if statement. What's that looking for? What do you think we need to do to make all our actions work? 
+
+:tada: Activity :tada:
+Turn the actions of your outline into variable names. 
 
 ### Write Our First FB Message in Code!
 
