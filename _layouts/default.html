@@ -23,7 +23,7 @@
     </section>
 
     <section class="main-content">
-    <h1> {{site.url}}</h1>
+    <h1> {{site.url }} {{ site.baseurl }}</h1>
     <ul>
      {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
 
@@ -31,7 +31,7 @@
           {% if p.navigation_weight %}
             {% if p.title %}
               <li>
-                <a href="{{site.url}}{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+                <a href="{{site.baseurl}}{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
                  {% if p.url == page.url %} <b>{% endif %}
                   {{ p.title }}   
                   {% if p.url == page.url %} </b>{% endif %}
@@ -52,12 +52,12 @@
         {% for post in navigation_pages %}
           {% if post.url == page.url %}
             {% unless forloop.first %}
-                <a href="{{ site.url }}{{ prev.url }}">&larr;{{ prev.title }}</a> |
+                <a href="{{ site.baseurl }}{{ prev.url }}">&larr;{{ prev.title }}</a> |
             {% endunless %}
             {% unless forloop.last %}
                   {% assign next =  navigation_pages[forloop.index] %}
 
-                | <a href="{{ site.url }}{{ next.url }}"> {{ next.title }}&rarr;</a>
+                | <a href="{{ site.baseurl }}{{ next.url }}"> {{ next.title }}&rarr;</a>
             {% endunless %}
           {% endif %}
           {% assign prev = post %}
