@@ -310,7 +310,7 @@ The function we looked at called another functon
 ```
 Head over to api.js in your Glitch app and take a look at that function. What does it take as an input? What do you think it does?
 
-We also saw that the buttons were an array, that contained a reference to something called a "postback." A postback is just what the button should do when it is pressed. Let's head to actions.js and look at a function there called receivedPostback. What do you think this does?
+We also saw that the buttons were an array, that contained a reference to something called a "postback." A postback is just what the button should do when it is pressed, when the button is pressed it has a "payload" which is basically the name of the action triggered. Let's head to actions.js and look at a function there called receivedPostback. What do you think this does?
 
 Now in this function you're going to see something very important in Javascript. That's the if statement. It looks like this
 
@@ -323,22 +323,69 @@ Now in this function you're going to see something very important in Javascript.
 Basically what it is doing is saying if the button pressed had the action "get_started" then we do the function in the curly braces {}. What if it's not? Well look at the next if statement. What's that looking for? What do you think we need to do to make all our actions work? 
 
 #### :tada: **Activity** :tada:
-Think of variable names for your questions that describe them but are valid Javascript variable names, put them on *yellow* notecards next to their corresponding question (the *green* cards). 
+Check out lines 19-53 in your actions.js, see if you can get your chatbot to respond with the 4 secret messages coded in this code. 
 
-Think of function names for all your responses, put them on *blue* notecards next to their corresponding responses. 
+### Map Your Story To Functions
+
+#### :tada: **Activity** :tada:
+Think of variable names for your questions that describe them but are valid Javascript variable names, put them on *yellow* notecards next to their corresponding question (the *green* cards). We should have a function for each of the green cards like this: 
+
+```javascript
+  // if our payload/action is "get_started", send them a message with the following buttons
+  if (payload === "get_started"){
+     var messageText= "Oh hello! Sorry I didn't notice you, I've been reading this wonderful book. It's my favorite part because—you'll see Here's where she meets Prince Charming But she won't discover that it's him 'til Chapter Three!";
+     var buttons = [
+     {
+      type:"postback",
+      payload:"likes",
+      title:"Your likes"
+    },
+    {
+      type:"postback",
+      payload: "life",
+      title: "Your life"
+    }
+    
+    ];
+    Messages.sendButtons(senderID, messageText, buttons);
+  }
+```
+
+The function should refer to the following green cards below it in the outline, or if there are no more left, to the goodbye message
+```javascript
+  if (payload === "dislikes"){
+    var messageText = "Well there is this man in town named Gaston. Boorish, brainless. He thinks I would want to be his wife. Can you imagine?"
+    var buttons = [
+    {
+      type:"postback",
+      payload:"goodbye",
+      title:"Goodbye"
+    }
+
+    ];
+    
+    Messages.sendButtons(senderID, messageText, buttons);
+
+  }
+  
+```
 
 
-### Add The Actions To Your Postback Functions
-Now we'll use those yellow notecards to write some code. 
+
+### Write Your Story Code
+Ok now we're going to write some code with your green cards. 
+
+
 
 ### Write The Functions For Your Responses
 
 ```javascript
 ```
 
+## Add More Functionality To Your Chatbot
 
 
-
+## Further Resources
 
 
 
