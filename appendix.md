@@ -46,23 +46,49 @@ Track your class progress with this handy checklist
 ## Story Worksheet
 A blank copy of the story worksheet:
 ** What character will your bot have? Get creative: you can use an existing character, a new one you make up or even yourself!**
-
+-
+-
+-
+-
+-
 
 **What things would you your character to tell people talking to them?**
+-
+-
+-
+-
+-
 
 
-
-
-**What kind of questions would someone ask your character in order to get them to say those things?*
-
+**What kind of questions would someone ask your character in order to get them to say those things?**
+-
+-
+-
+-
+-
 
 
 **Now we need to give your conversation a flow - can you divide your questions up into some categories with about 2-3 questions per category?**
+-
+-
+-
+-
+-
 
 
 
 **Now let’s turn those categories into questions themselves. How might someone ask about this aspect of your character?**
 
+-
+-
+-
+-
+-
 
 
-**Give your bot some personality! Write your answers in your characters voice. Don't forget a greeting and goodbye !**
+**Give your bot some personality! Write your answers in your characters voice. Don't forget a greeting and goodbye!**
+-
+-
+-
+-
+-
