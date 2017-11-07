@@ -99,3 +99,10 @@ A blank copy of the story worksheet:
 -
 -
 -
+
+
+## Further Resources
+
+* Javascript
+  * [Codecademy Javascript](https://www.codecademy.com/learn/introduction-to-javascript): a free interactive course that teaches the basics really well.
+  * [NodeSchool](https://nodeschool.io/): in person and online Node.js resources
