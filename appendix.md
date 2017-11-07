@@ -103,7 +103,8 @@ A blank copy of the story worksheet:
 ## Story Alternatives With Examples
 
 ### Quiz
-** What will the quiz tell people who take it? **
+
+**What will the quiz tell people who take it?**
 For example "What Disney Character Are You?"
 
 
