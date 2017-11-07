@@ -100,6 +100,51 @@ A blank copy of the story worksheet:
 -
 -
 
+## Story Alternatives With Examples
+
+### Quiz
+** What will the quiz tell people who take it? **
+For example "What Disney Character Are You?"
+
+
+**What are 4 potential outcomes?**
+Pocahantas, Jasmine, Mulan, Ariel
+
+**Draw out your quiz structure**
+
+*Pocahantas Vs. Jasmine
+  * Jasmine vs. Mulan
+   * Mulan vs. Ariel
+   * Jasmine vs. Ariel
+  * Pocahantas vs. Mulan
+   * Mulan vs. Ariel
+   * Pocahantas Vs. Ariel
+
+**What questions will determine the outcomes?**
+* Pocahantas Vs. Jasmine: Which animal is your favorite?
+ * Pocahantas: A raccoon
+ * Jasmine: A tiger
+* Jasmine vs. Mulan: Which is more important to you?
+ * Jasmine: Making your own way in the world
+ * Mulan: Protecting my family
+* Mulan vs. Ariel: What's your favorite color?
+ * Mulan: Teal 
+ * Ariel: Blue
+* Jasmine vs. Ariel: Which would you rather do?
+ * Jasmine: Travel to a new place
+ * Ariel: Visit a muesuem
+* Pocahantas vs. Mulan: Are you more independent or caring?
+  * Pocahantas: Caring
+  * Mulan: Independent
+* Mulan vs. Ariel: Do you like dressing up?
+ * Mulan : No
+ * Ariel: Yes
+* Pocahantas Vs. Ariel: Which subject do you prefer?
+  * Ariel: History
+  * Pocahantas: Biology
+
+
+
 
 ## Further Resources
 
