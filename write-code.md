@@ -86,7 +86,7 @@ Most APIs have something called documentation, which tell you the correct way to
 
 For now let's take a look at [Button Template](https://developers.facebook.com/docs/messenger-platform/send-messages/template/button). The Button Template is one of several different message templates available for Facebook chatbot messages. You saw it used in our test messages. If you scroll down you'll see what you need to send to the API to create one. Take a look at it. While it might look a bit complicated, it's made up of what we just saw before. What data types do you see?
 
-```javascript
+```json
 curl -X POST -H "Content-Type: application/json" -d '{
   "recipient":{
     "id":"<PSID>"
