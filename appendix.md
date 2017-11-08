@@ -31,6 +31,8 @@ Track your class progress with this handy checklist
 - [ ] :tada: Activity: Identify data structures
 - [ ] :tada: Activity: Write some functions
 - [ ] :tada: Activity: Find the app secret messages
+- [ ] :tada: Activity: Find the data structures
+- [ ] :tada: Activity: Complete the test code
 - [ ] :tada: Activity: Map your story to code
 - [ ] :tada: Activity: Write your code
 
