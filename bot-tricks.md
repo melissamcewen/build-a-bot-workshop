@@ -47,7 +47,7 @@ Notice it says "greetings" and a "confidence" - the confidence is how sure it is
 
 Now we need to grab that data and use it. Create a new var like this in your receivedMessage function
 ```javascript
-  var greeting = firstEntity(message.nlp, 'greetings');
+  var greeting = Messages.firstEntity(message.nlp, 'greetings');
   
   
 ```
