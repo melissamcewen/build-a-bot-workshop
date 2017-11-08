@@ -6,8 +6,12 @@ In this workshop we'll build a Facebook chatbot using code. Along the way we'll 
 
 * A computer :computer:, any computer is fine. We're serious. 
 * A Facebook account
+* A free [Glitch.com](https://glitch.com) account
 * some colored index cards
 * [You may want to print out or save the workshop checklist and blank worksheets to help you follow along](appendix.md)
+* :sparkles: Creativity :rainbow:
+
+This workshop was created for ChickTech Chicago High School 2017
 
 ## Contents
 
