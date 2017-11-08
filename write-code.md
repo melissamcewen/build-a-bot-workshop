@@ -198,8 +198,13 @@ Checkout line 55 in your Glitch app to see the function receivedPostback. Head o
 ### :tada: **Activity** :tada:
 What arguments does sendButtons take? What kind of data does receivedPostback use when it calls sendButtons? What would you do if you wanted to add more buttons or change a message?
 
-Try completing the code in this exercise to respond with the message "success!" 
+Try completing the code in this exercise to respond with the following
 http://jsbin.com/ketuhek/edit?js,console
+
+> "you successfully triggered this conditional"
+> "successfully called testSendMessage"
+> "your message is" *your message*
+> "the buttons are:" *your buttons*
 
 
 
