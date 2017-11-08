@@ -86,14 +86,37 @@ Most APIs have something called documentation, which tell you the correct way to
 
 For now let's take a look at [Button Template](https://developers.facebook.com/docs/messenger-platform/send-messages/template/button). The Button Template is one of several different message templates available for Facebook chatbot messages. You saw it used in our test messages. If you scroll down you'll see what you need to send to the API to create one. Take a look at it. While it might look a bit complicated, it's made up of what we just saw before. What data types do you see?
 
-![an example API request for a button template](assets/images/button-template.jpg)
-
+```javascript
+curl -X POST -H "Content-Type: application/json" -d '{
+  "recipient":{
+    "id":"<PSID>"
+  },
+  "message":{
+    "attachment":{
+      "type":"template",
+      "payload":{
+        "template_type":"button",
+        "text":"What do you want to do next?",
+        "buttons":[
+          {
+            "type":"web_url",
+            "url":"https://www.messenger.com",
+            "title":"Visit Messenger"
+          },
+          {
+            ...
+          },
+          {...}
+        ]
+      }
+    }
+  }
+}' "https://graph.facebook.com/v2.6/me/messages?access_token=<PAGE_ACCESS_TOKEN>"
+```
 
 :tada: **Activity** :tada:
-Discuss what the three highlighted parts might mean and what data structures they contain. Now look at the following example then see if you can see what parts of the example message might go with each part.
+Discuss what the example  parts might mean and what data structures they contain. 
 
-![what parts of this correspond to the messsage](assets/images/send-greeting-puzzle.jpg)
-![what parts of this correspond to the messsage](assets/images/send-greeting-puzzle-2.jpg)
 
 
 ## Learn About Functions
@@ -161,7 +184,16 @@ Basically what it is doing is saying if the button pressed had the action "get_s
 ### :tada: **Activity** :tada:
 Check out lines 19-53 in your actions.js, see if you can get your chatbot to respond with the 4 secret messages coded in this code. 
 
+
+
+
 ## Add Your Story To A Function
+Remember the example from the documentation? Well we won't need to write anything like that because we are using a function that will format our message for us. 
+
+Checkout line 55 in your Glitch app to see the function receivedPostback. Head over to messages.js to check out the function it calls - sendButtons. 
+### :tada: **Activity** :tada:
+What arguments does sendButtons take? What kind of data does receivedPostback use when it calls sendButtons?
+
 
 ### :tada: **Activity** :tada:
 Think of action names for your questions that describe them but are simple lowercase words that are easy to code in, put them on *yellow* :yellow_heart: notecards next to their corresponding question (the :green_heart: *green* cards). 
