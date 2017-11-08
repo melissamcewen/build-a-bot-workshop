@@ -115,7 +115,11 @@ curl -X POST -H "Content-Type: application/json" -d '{
 ```
 
 :tada: **Activity** :tada:
-Discuss what the example  parts might mean and what data structures they contain. 
+Discuss what the example parts might mean and what data structures they contain. See if you can find an example of a:
+
+* String
+* Object
+* Array
 
 
 
@@ -193,6 +197,10 @@ Remember the example from the documentation? Well we won't need to write anythin
 Checkout line 55 in your Glitch app to see the function receivedPostback. Head over to messages.js to check out the function it calls - sendButtons. 
 ### :tada: **Activity** :tada:
 What arguments does sendButtons take? What kind of data does receivedPostback use when it calls sendButtons? What would you do if you wanted to add more buttons or change a message?
+
+Try completing the code in this exercise to respond with the message "success!" 
+http://jsbin.com/ketuhek/edit?js,console
+
 
 
 ### :tada: **Activity** :tada:
