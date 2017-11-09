@@ -12,9 +12,11 @@ We will build our app using a programming lanague called Javascript. Even if you
 But Javascript can also be used for so much more. 
 
 ## What is Node.js?
-In 2009 a guy named Ryan Dahl invented Node.js. It's Javascript that is used on a server rather than a browser. We are not making a website, we are connecting to own. Our code exists just to talk to Facebook. Facebook handles the the rest. 
+So you can make really cool websites with Javascript. But there is also a way to use it to tell an existing website what to do. It's called Node.js. We are not making a website, we are connecting to one. 
 
-The way we connect is through something called an API. That stands for Application programming interface, but it's pretty simpler, it's just a common language and commands that allow our app to tell Facebook what to do.  
+Our code exists just to talk to Facebook. Facebook handles the the rest. The way we connect is through something called an API (Application programming interface).  Think of it as a common language that allows our app to tell Facebook what to do.
+
+So if our application says "send this message", Facebook will send it. 
 
 
 ## Glitch.com
@@ -33,10 +35,7 @@ Sweet, now you have your own app just like the one I made. We'll go over the fil
 * api.js contains integrations for the Facebook API
 * app.js starts our server
 * messages.js is the code containing the text and formatting of messages our app sends
-* package.json tells Node.js what packages the app uses. If you remember packages from earlier, they are like other applications that can extend the functionality of ours. The ones the base project includes are:
- * Express, which is a framework for created a simple server
- * Body-parser, which helps our application understand incoming data from Facebook
- * Request, a tool for sending data to Facebook
+* package.json configures Node.js
 * server.js is the code for our server
 * welcome.html is our project's webpage
 
@@ -44,8 +43,6 @@ Some other things to know is Glitch is a live code editor, which means every tim
 
 Also, all code has lines numbers. Sometimes we'll refer to the line numbers when looking at code. 
 ![code line numbers](assets/images/code-line-numbers.jpg)
-
-
 
 If you make any changes you end up not liking and want to go back to the original, you can find it here [here at my Github repo](https://github.com/melissamcewen/melissachatbot).
 
