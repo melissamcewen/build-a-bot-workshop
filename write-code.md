@@ -6,7 +6,17 @@ navigation_weight: 4
 
 
 # Write Your Story With Code
-## Javscript Variables
+## Code Tools
+## Javascript Variables
+Let's learn about variables. Head to [jsbin and click run](http://jsbin.com/laweped/edit?js,console), then see if you can complete the exercise.
+
+## Javascript Data Types
+Let's run some more code in Jsbin [here](http://jsbin.com/fixoqe/edit?js,console).
+
+[and here](http://jsbin.com/digidux/edit?js,console)
+
+
+http://jsbin.com/dexozi/edit?js,console
 
 ## Javascript Functions
 Functions allow Javascript to perform tasks. Using a function is basically like casting a spell
@@ -20,16 +30,10 @@ What arguments did it use?
 ### :tada: **Activity** :tada: Cast a spell
 Head on over to [Jsbin](http://jsbin.com/sotomim/edit?js,console) and click "run." Then try it yourself!
 
-
-
-## Javascript Data Types
+### :tada: **Activity** :tada: Find the bug
 Head back over to [Jsbin and run the code](http://jsbin.com/rolaca/edit?js,console). Did you get the answer you expected? 
 
-### :tada: **Activity** :tada: Find the bug
-What's the difference? Can you fix it?
-
-
-
+Can you fix it?
 
 ## Documentation
 
@@ -73,16 +77,12 @@ Discuss what the example parts might mean and what data types they contain. See 
 * Array
 
 
-
-
 ### :tada: **Activity** :tada:
 We're going to practice writing some functions using a site called [jsbin](http://jsbin.com/zuseqe/edit?js,console). See if you can get the myFunction to run and get you the secret code word. Then see if you can write your own function.
 
 
 ### :tada: **Activity** :tada:
 Check out lines 19-53 in your actions.js, see if you can get your chatbot to respond with the 4 secret messages coded in this code. 
-
-
 
 
 ## Add Your Story To A Function
