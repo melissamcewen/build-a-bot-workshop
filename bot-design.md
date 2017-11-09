@@ -34,7 +34,7 @@ With an example!
 
 Belle Bot - a bot based the character from Beauty & The Beast
 
-**What things would you your character to tell people talking to them?**
+**What things would you have your character to tell people talking to them?**
 
 * I yearn for adventure
 * I love to read
