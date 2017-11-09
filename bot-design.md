@@ -3,7 +3,7 @@ title: Design Your Bot
 navigation_weight: 2
 ---
 
-# Step 1: Design Your Bot
+# Design Your Bot
 
 
 ## What are Chatbots?
