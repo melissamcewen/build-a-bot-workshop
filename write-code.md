@@ -6,7 +6,7 @@ navigation_weight: 4
 
 
 # Write Your Story With Code
-## Functions
+## Javscript Functions
 Functions allow Javascript to perform tasks. Using a function is basically like casting a spell
 ![adding our variable cards](assets/images/spell.gif)
 
@@ -20,80 +20,15 @@ Head on over to [Jsbin](http://jsbin.com/sotomim/edit?js,console) and run the fu
 
 
 
-## Learn about Javascript Data Types
-Javascript can understand many different types of data, but you often need to tell it what kind of data you're using. For example you can tell Javascript to do 4 + 4. Javascript can do math so you'd expect 8 right? But if you wrap the "4+4" in quotes Javascript will instead return "4+4". If you wrap the fours themselves in strings like "4" + "4" Javascript will return "44". That's because the quotes tell Javascript your four is a "string", which is like a word, rather than a number. Yeah, you'd understand if I asked you "4+4" but Javascript is just a computer language, so it sometimes doesn't understand. 
+## Javascript Data Types
+Head back over to [Jsbin and run the code](http://jsbin.com/rolaca/edit?js,console). Did you get the answer you expected? 
 
-The reason this is important for our bots is that we need to send Facebook messages that it understands. Our writing can be seen as data as well. It needs to be the right type and also formatted correctly. The data types we'll be using are: objects, arrays, and strings mainly.
+What's the difference?
 
-We already learned about strings, but what about objects? You can think of objects as just a categorized list. For example you could make an object to organize a phone book. What kind of data would you put in a phone book? Can you think of an example entry?
-
-So like 
-> First name: Melissa
-
-> Last name: McEwen
-
-> Phone number : 555-555-555
-
-To turn that into something JS will understand, let's create an object. 
-
-First we want to declare a variable, the variable stores our data. So we can just use the variable in other things rather than writing the data over and over again. You can store any data type in a variable. And you can name it most anything, except you cannot use spaces and certain other characters in JS. 
-
-So I'll just name it Melissa. And to start an object all if have to do is use some "curly braces". 
-```javascript
-var melissa = {}
-
-```
-
-OK inside those curly braces I'll put my data. Each piece of data has a "key" which tells me what the data is for. Like what kind of data is "McEwen"?
-
-I can use any word I want for this- last name, surname but it is also a variable, it's just like a variable inside the melissa variable, so I'll need to write it as a variable. Then I use a colon and then I the data that is stored - so in this case "McEwen." This is a piece of data and I'm going to use the string type since it's a word. I might also want to use that type for "555-555-5555" because otherwise JS will think it's 555 minus 555 minus 5555 and I want it to just leave it alone and not do math on it :) 
-```javascript
-phone : "555-555-5555",
-firstname: "melissa"
-lastname : "mcewen"
-
-```
-Now I'll stick all that stuff into my Melissa variable
-
-```javascript
-var melissa = {
- phone : "555-555-5555",
- firstname: "melissa",
- lastname : "mcewen",
-}
-
-```
-Tada! Now you have an object!
-
-We'll also use arrays. Arrays are like lists and they can also contain any data, but they do not have keys like objects do. Think of your favorite foods. We'll turn them into an array.
-
-Arrays use brackets like this and we'll also put our new array in a variable
-```javascript
-var favFoods = []
-
-```
-
-Now we'll add a bunch of foods in there, as many as we want, the only rule is we separate them by a comma. What kind of data should we format our foods as?
-
-If you said strings you're right!
-```javascript
-var favFoods = ["pizza", "hot dogs", "lettuce"]
-
-```
-
-These lists can also go inside our object
+Well if you put the number in quotes like "2", you 
 
 
-```javascript
-var melissa = {
- phone : "555-555-5555",
- firstname: "melissa",
- lastname : "mcewen",
- favFoods : ["pizza", "hot dogs", "lettuce"]
-}
-
-```
-## Learn About Documentation
+## Documentation
 
 Most APIs have something called documentation, which tell you the correct way to use them. You can find Facebook Messenger's [here](https://developers.facebook.com/docs/messenger-platform/). I'll tell you a bit about how to use it, but feel free to browse around. 
 
@@ -136,67 +71,10 @@ Discuss what the example parts might mean and what data structures they contain.
 
 
 
-## Learn About Functions
-In the previous activity you figured out how a message was formatted with data structures. But you also looked at our first function. A function takes arguments, a type of input, and does things with this. In this case, it took a variable called recipientId as an argument, and took the message and sent it to that recipient. A function can have any name similar to the names allowed for variables.
-
-What a function is called it looks like this:
-```javascript
-functionName(argument)
-```
-The function we looked at called another functon 
-
-```javascript
-  API.callSendAPI(messageData);
-```
-Head over to api.js in your Glitch app and take a look at that function. What does it take as an input? What do you think it does?
-
-We also saw that the buttons were an array, that contained a reference to something called a "postback." A postback is just what the button should do when it is pressed, when the button is pressed it has a "payload" which is basically the name of the action triggered. Let's head to actions.js and look at a function there called receivedPostback. What do you think this does?
-
 
 ### :tada: **Activity** :tada:
 We're going to practice writing some functions using a site called [jsbin](http://jsbin.com/zuseqe/edit?js,console). See if you can get the myFunction to run and get you the secret code word. Then see if you can write your own function.
 
-```javascript
-// example function
-function exampleAdd(number1, number2) {
-  // console.log just logs the output of our function to the console over here ->
-  console.log("hello console")
-  // now we'll add the two  numbers
-  console.log(number1 + number2);
-}
-
-// call the example function
-exampleAdd(2, 2);
-
-// declaring a function
-function myFunction(argument) {
-  //let's store our answer in a variable
-  var answer = (argument * 2) - 42;
-  //now console.log the answer
-  // to combine words we taking strings and using + to put them together
-  console.log("look for line " + answer + " in messages.js for the answer");
-  
-}
-
-// call your function with the number 32 as the argument
-
-// now look in messages.js for the secret code word
-
-// Now let's write your own function to take your first and last name as arguments 
-// and log your full name to the console
-
-```
-
-
-Now take a look at the receivedPostback function in your actions.js file. You're going to see something very important in Javascript. That's the if statement. It looks like this
-
-```javascript
-  if (payload === "get_started"){
-      Messages.sendGreeting(senderID);
-  }
-```
-
-Basically what it is doing is saying if the button pressed had the action "get_started" then we do the function in the curly braces {}. What if it's not? Well look at the next if statement. What's that looking for? What do you think we need to do to make all our actions work? 
 
 ### :tada: **Activity** :tada:
 Check out lines 19-53 in your actions.js, see if you can get your chatbot to respond with the 4 secret messages coded in this code. 
