@@ -14,7 +14,7 @@ If you'd like to get your app officially released and accessible for everyone, [
 ## Send pictures
 The receivedMessage function in action.js also sends a picture in response to one message. It uses the sendImage function, which takes the sender id and the picture url as arguments. You can use that function too and it's easy. Click on the assets directory in your Glitch app.
 
-![add images](assets/images/add-images.jpg)
+![add images](assets/images/add-image.jpg)
 
 you can just drag images here, and then click the image to get the URL
 
@@ -36,7 +36,7 @@ When we worked with the receivedPostback function, our responses had buttons. Th
 How do you greet someone? Do you say "hi" or "hello?" or something else? We learned how to respond to text messsages, but what if you wanted to always respond to a greeting? It might be hard to program in all the types of greetings. Luckily Facebook Messenger integrates with Wit.ai which does NLP(natural language processing). On a very basic level, they fed the AI MANY sentences and told them which words were greetings so now Wit.ai can predict whether or not something is. 
 
 Let's turn it on in our developers.facebook.com app page. Go to your Messenger section and scroll down to Built-In NLP, then select your page. Toggle the switch to on.
-![turning NLP on](assets/images/turn-nlp-wit.on.jpg)
+![turning NLP on](assets/images/turn-nlp-wit-on.jpg)
 
 But how do we get our bot to respond appropriately? Send your bot a message saying hi. 
 
