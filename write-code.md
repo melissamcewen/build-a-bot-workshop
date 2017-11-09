@@ -2,38 +2,164 @@
 title:  Write Your Story With Code
 navigation_weight: 4
 ---
-
-
-
 # Write Your Story With Code
 ## Code Tools
-## Javascript Variables
-Let's learn about variables. Head to [jsbin and click run](http://jsbin.com/laweped/edit?js,console), then see if you can complete the exercise.
+To write some Javascript and test it out, we'll be using a site called jsbin.com.
+
+It's very easy to use. 
+![adding our variable cards](assets/images/jsbin.jpg)
+
+There is code on the left side, that's where we will write our Javascript. We can use something called
+```javascript
+  console.log("anything between these quotes will be shown on the console");
+```
+to see the results. And the results will show on the **console**, which is the right side.
+
+## Variables
+Head to [jsbin and click run](http://jsbin.com/laweped/edit?js,console), then see if you can complete the exercise.
+
+
+### :tada: **Activity** :tada: My name is a variable
+```javascript
+//creating a variable is easy!
+var myVariable = "my name is ";
+
+// console.log is a way we can see what a variable 
+// is in our handle console over there
+// click run to see it in action
+
+console.log(myVariable);
+
+// create your own variable with your name. Call it yourVariable
+
+
+// Now let's try something new - using multiple variables together
+// remove the // from the next line and click run
+//console.log(myVariable + yourVariable);
+```
 
 ## Javascript Data Types
-Let's run some more code in Jsbin [here](http://jsbin.com/fixoqe/edit?js,console).
+OK but there are different types of things we can put inside variables. They are called data types. Let's learn about those with more activities.
+### :tada: **Activity** :tada: What Type?
 
-[and here](http://jsbin.com/digidux/edit?js,console)
+[Click here to go to Jsbin](http://jsbin.com/fixoqe/edit?js,console).
+```javascript
+// Here is our handy variable again
+var myVar = "my name is ";
+
+//now look at this variable
+var myNumber = 5;
+
+//what's the difference? Click run to find out
+
+console.log("MyVar is a " + typeof myVar);
+console.log("MyVar is a " + typeof myNumber);
+```
+### :tada: **Activity** :tada: My Favorite Foods
+
+[Click here to go to Jsbin](http://jsbin.com/digidux/edit?js,console)
+
+```javascript
+// What if we want to store a list of things?
+// We're in luck, Javascript has a data type for that
+// it's called an array
+var favFoods = ["pizza", "pasta"];
+
+// try making your own called myFavFoods and logging it to the console
+```
+
+### :tada: **Activity** :tada: Personal Address Book
+
+[Click here to go to Jsbin](http://jsbin.com/dexozi/edit?js,console)
+```javascript
+// What if we have a lot of data about one thing
+// like about Melissa?
+// well here is a new data type
+
+var Melissa = {
+  lastName : "Mcewen",
+  firstName: "Melissa",
+  favColor: "blue"
+};
+
+console.log(Melissa);
+
+// this is an object, click run to see what happens
 
 
-http://jsbin.com/dexozi/edit?js,console
+// what is lastName?
+// it is a variable, but inside the object we don't use
+// var lastName = "Mcewen"
+// we use
+// lastName : "McEwen"
+
+//but what if we want to print out just the lastName? 
+// And not the entire info about Melissa?
+console.log(Melissa.lastName);
+
+// Now try printing out the first name
+
+
+// Now try making your own object with your info
+var You = {
+  
+}
+
+// and printing out just your last name
+
+```
 
 ## Javascript Functions
 Functions allow Javascript to perform tasks. Using a function is basically like casting a spell
 ![adding our variable cards](assets/images/spell.gif)
 
-Each function can take inputs called arguments. We're going to use a site called JSbin to examine some functions. [Head over there and click run to try it](http://jsbin.com/zeleko/edit?js,console). 
 
-What did this function do? 
-What arguments did it use?
+### :tada: **Activity** :tada: Math Spell
 
-### :tada: **Activity** :tada: Cast a spell
+We're going to use a site called JSbin to examine some functions. [Head over there and click run to try it](http://jsbin.com/zeleko/edit?js,console). 
+
+```javascript
+//defining a function
+function mathSpell(number1, number2){
+  console.log(number1+number2);
+}
+//calling a function
+mathSpell(2,2);
+
+```
+
+### :tada: **Activity** :tada: Turn Into A Pumpkin
 Head on over to [Jsbin](http://jsbin.com/sotomim/edit?js,console) and click "run." Then try it yourself!
+
+```javascript
+// here is our function
+function mySpell(thing){
+  return "You've been turned into a " + thing
+}
+
+
+// now let's run our function
+console.log(mySpell("pumpkin"))
+
+// what is thing? Thing is called an argument, it is the function's input
+//now try it with your own argument! 
+// try making the function turn you into an apple or a dinosaur
+
+```
 
 ### :tada: **Activity** :tada: Find the bug
 Head back over to [Jsbin and run the code](http://jsbin.com/rolaca/edit?js,console). Did you get the answer you expected? 
 
 Can you fix it?
+
+```javascript
+//defining a function
+function math(number1, number2){
+  console.log(number1+number2);
+}
+//calling a function
+math("2","2");
+```
 
 ## Documentation
 
