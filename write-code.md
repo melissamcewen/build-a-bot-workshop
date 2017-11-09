@@ -6,7 +6,9 @@ navigation_weight: 4
 
 
 # Write Your Story With Code
-## Javscript Functions
+## Javscript Variables
+
+## Javascript Functions
 Functions allow Javascript to perform tasks. Using a function is basically like casting a spell
 ![adding our variable cards](assets/images/spell.gif)
 
@@ -15,17 +17,18 @@ Each function can take inputs called arguments. We're going to use a site called
 What did this function do? 
 What arguments did it use?
 
-### :tada: **Activity** :tada:
-Head on over to [Jsbin](http://jsbin.com/sotomim/edit?js,console) and run the function to cast a spell. Then try calling it yourself. 
+### :tada: **Activity** :tada: Cast a spell
+Head on over to [Jsbin](http://jsbin.com/sotomim/edit?js,console) and click "run." Then try it yourself!
 
 
 
 ## Javascript Data Types
 Head back over to [Jsbin and run the code](http://jsbin.com/rolaca/edit?js,console). Did you get the answer you expected? 
 
-What's the difference?
+### :tada: **Activity** :tada: Find the bug
+What's the difference? Can you fix it?
 
-Well if you put the number in quotes like "2", you 
+
 
 
 ## Documentation
@@ -63,7 +66,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
 ```
 
 :tada: **Activity** :tada:
-Discuss what the example parts might mean and what data structures they contain. See if you can find an example of a:
+Discuss what the example parts might mean and what data types they contain. See if you can find an example of a:
 
 * String
 * Object
