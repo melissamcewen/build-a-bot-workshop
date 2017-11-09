@@ -195,7 +195,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
 }' "https://graph.facebook.com/v2.6/me/messages?access_token=<PAGE_ACCESS_TOKEN>"
 ```
 
-:tada: **Activity** :tada:
+:tada: **Activity** :tada: Examine the Documentation
 Discuss what the example parts might mean and what data types they contain. See if you can find an example of a:
 
 * String
@@ -203,8 +203,28 @@ Discuss what the example parts might mean and what data types they contain. See 
 * Array
 
 
-### :tada: **Activity** :tada:
-We're going to practice writing some functions using a site called [jsbin](http://jsbin.com/zuseqe/edit?js,console). See if you can get the myFunction to run and get you the secret code word. Then see if you can write your own function.
+### :tada: **Activity** :tada: Function Practice
+Head to [jsbin](http://jsbin.com/zuseqe/edit?js,console). See if you can get the myFunction to run and get you the secret code word. Then see if you can write your own function.
+
+```javascript
+
+
+// declaring a function
+function myFunction(argument) {
+  //let's store our answer in a variable
+  var answer = (argument * 2) - 42;
+  // to combine words we taking strings and using + to put them together
+  console.log("look for line " + answer + " in messages.js for the answer");
+  
+}
+
+// call your function with the number 32 as the argument
+
+// now look in messages.js for the secret code word
+
+// Now let's write your own function to take your first and last name as arguments 
+// and log your full name to the console
+```
 
 
 ### :tada: **Activity** :tada:
@@ -218,10 +238,10 @@ Checkout line 55 in your Glitch app to see the function receivedPostback. Head o
 ### :tada: **Activity** :tada:
 What arguments does sendButtons take? What kind of data does receivedPostback use when it calls sendButtons? What would you do if you wanted to add more buttons or change a message?
 
-Try completing the code in [this exercise](http://jsbin.com/ketuhek/edit?js,console) to respond with the following
+Try completing the code in [this jsbin](http://jsbin.com/ketuhek/edit?js,console) to respond with the following
 
 
-> "you successfully triggered this conditional"
+> "you successfully triggered this"
 
 > "successfully called testSendMessage"
 
@@ -229,6 +249,38 @@ Try completing the code in [this exercise](http://jsbin.com/ketuhek/edit?js,cons
 
 > "the buttons are:" *your buttons*
 
+```javascript
+function practicePostback(event){
+  var senderID = "fakeID123";
+  var payload = event.postback.payload;
+  if(payload === ""){
+    console.log("you successfully triggered this")
+    
+    /*now let's make two buttons
+    the format for a button is:
+     {
+      type:"postback",
+      payload:"action",
+      title:"button text"
+      }
+    */
+    var buttons = [];
+    // add a message
+    var messageText = "";
+    
+    // now call testSendMessage
+    testSendMessage(senderID, messageText, buttons)
+  }
+}
+
+// this is a little like the events that facebook sends your app 
+// but only contains the payload from a postback
+var practiceEvent = {
+  postback: {
+     payload: "testme"
+   }
+}
+```
 
 
 ### :tada: **Activity** :tada:
