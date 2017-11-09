@@ -157,3 +157,7 @@ Pocahantas, Jasmine, Mulan, Ariel
   * [Codecademy Javascript](https://www.codecademy.com/learn/introduction-to-javascript): a free interactive course that teaches the basics really well.
   * [NodeSchool](https://nodeschool.io/): in person and online Node.js resources
   * [Going out to eat and understanding the basics of Express.js](https://medium.freecodecamp.org/going-out-to-eat-and-understanding-the-basics-of-express-js-f034a029fb66)
+  
+  
+ ## Thank you!
+Thanks to Kristi Leach and Karl Thomas for your reviews and feedback :D
