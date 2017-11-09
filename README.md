@@ -5,7 +5,9 @@
 ![examplebot](assets/images/chatbot-example-large.gif)
 
 
-In this workshop we'll build a Facebook chatbot using code. Along the way we'll learn the basics of building an application, the Javascript programming language, and Node.js, which is a way to use Javascript to build applications. The best part is this course requires no experience. You don't need *any* experience at all in code, you don't even have to know what Javascript is. But along the way you'll learn and hopefully build lots of your own bots in the future. All you need is
+In this workshop we'll build a Facebook chatbot using code. Along the way we'll learn the basics of building an application, the Javascript programming language, and Node.js, which is a way to use Javascript to build applications. The best part is this course requires no experience. You don't need *any* experience at all in code, you don't even have to know what Javascript is. But along the way you'll learn and hopefully build lots of your own bots in the future. 
+
+## All you need is
 
 * A computer :computer:, any computer is fine. We're serious. 
 * A Facebook account
@@ -13,8 +15,6 @@ In this workshop we'll build a Facebook chatbot using code. Along the way we'll 
 * some colored index cards
 * [You may want to print out or save the workshop checklist and blank worksheets to help you follow along](appendix.md)
 * :sparkles: Creativity :rainbow:
-
-This workshop was created for ChickTech Chicago High School 2017
 
 ## Contents
 
@@ -27,3 +27,4 @@ This workshop was created for ChickTech Chicago High School 2017
 
 
 
+This workshop was created for ChickTech Chicago High School 2017
