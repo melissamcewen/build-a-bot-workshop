@@ -28,6 +28,7 @@ Track your class progress with this handy checklist
 - [ ] :tada: Activity: Test your chatbot
 
 ### Write Your Story With Code
+- [ ] :tada: Activity: Call a function
 - [ ] :tada: Activity: Identify data structures
 - [ ] :tada: Activity: Write some functions
 - [ ] :tada: Activity: Find the app secret messages
