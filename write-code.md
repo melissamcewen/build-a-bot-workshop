@@ -6,6 +6,19 @@ navigation_weight: 4
 
 
 # Write Your Story With Code
+## Functions
+Functions allow Javascript to perform tasks. Using a function is basically like casting a spell
+![adding our variable cards](assets/images/spell.gif)
+
+Each function can take inputs called arguments. We're going to use a site called JSbin to examine some functions. [Head over there and click run to try it](http://jsbin.com/zeleko/edit?js,console). 
+
+What did this function do? 
+What arguments did it use?
+
+### :tada: **Activity** :tada:
+Head on over to [Jsbin](http://jsbin.com/sotomim/edit?js,console) and run the function to cast a spell. Then try calling it yourself. 
+
+
 
 ## Learn about Javascript Data Types
 Javascript can understand many different types of data, but you often need to tell it what kind of data you're using. For example you can tell Javascript to do 4 + 4. Javascript can do math so you'd expect 8 right? But if you wrap the "4+4" in quotes Javascript will instead return "4+4". If you wrap the fours themselves in strings like "4" + "4" Javascript will return "44". That's because the quotes tell Javascript your four is a "string", which is like a word, rather than a number. Yeah, you'd understand if I asked you "4+4" but Javascript is just a computer language, so it sometimes doesn't understand. 
@@ -198,12 +211,15 @@ Checkout line 55 in your Glitch app to see the function receivedPostback. Head o
 ### :tada: **Activity** :tada:
 What arguments does sendButtons take? What kind of data does receivedPostback use when it calls sendButtons? What would you do if you wanted to add more buttons or change a message?
 
-Try completing the code in this exercise to respond with the following
-http://jsbin.com/ketuhek/edit?js,console
+Try completing the code in [this exercise](http://jsbin.com/ketuhek/edit?js,console) to respond with the following
+
 
 > "you successfully triggered this conditional"
+
 > "successfully called testSendMessage"
+
 > "your message is" *your message*
+
 > "the buttons are:" *your buttons*
 
 
