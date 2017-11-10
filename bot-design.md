@@ -87,8 +87,25 @@ Belle Bot - a bot based the character from Beauty & The Beast
       * Oh it's just me and my father, Maurice, he's an inventor. He wants to give up, he's had so much trouble getting his new contraption to work. But I believe in him! We also have a horse, Philippe.
 * Well thanks for talking to me, I'm off now, need to put my books in the basket and get to town. I hope Gaston isn't there! Last time I saw him he took my book and threw it into a puddle.
 
+## Visualize Your Flow
+Let's put our story on notecards so we can organize it. 
+* Each answer should be on a *red-ish pink* :heart: notecard
+* Each question should be a on :green_heart: *green* notecard. 
+
+Arrange your notecards to show the pathway of how our chatbot can answer. 
+
+### :tada: **Activity** :tada: Card Layout Example
+But first see how much you know about chatbot design with this quiz.
+![match the cards with the layout](assets/images/cards-story-example.jpg)
+
+Match the parts of the story from the example to the flow
+a. 
+  * Oh hello! Sorry I didn't notice you, I've been reading this wonderful book. It's my favorite part because—you'll see Here's where she meets Prince Charming. But she won't discover that it's him 'til Chapter Three. Would you like to know about the things I like? Or maybe about my life?
+   * Your likes
+
+
+
 ### :tada: **Activity** :tada:
 
-Let's put our story on notecards so we can organize it. Each answer should be on a *pink* :cherry_blossom: notecard, and each question should be a on :green_heart: *green* notecard. Arrange your notecards to show the pathway of how our chatbot can answer. 
 
 ![create your story with notecards](assets/images/cards-story.jpg)
