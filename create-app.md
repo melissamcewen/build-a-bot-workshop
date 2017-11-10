@@ -18,6 +18,9 @@ Our code exists just to talk to Facebook. Facebook handles the the rest. The way
 
 So if our application says "send this message", Facebook will send it. 
 
+![how our node app will work](assets/images/node-example.gif)
+
+
 
 ## Glitch.com
 Our app already contains the instructions that Node uses to connect to Facebook's API. It sends Facebook formatted data and also listens for FB to send data back. But we need to connect it correctly so Facebook will trust it. We also need to give the application its own page - the page is what people who want to message our bot will message.
