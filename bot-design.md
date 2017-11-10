@@ -99,6 +99,7 @@ But first see how much you know about chatbot design with this quiz.
 ![match the cards with the layout](assets/images/cards-story-example.jpg)
 
 Match the parts of the story from the example to the flow
+
 | A. * Oh hello! Sorry I didn't notice you, I've been reading this wonderful book. It's my favorite part because—you'll see Here's where she meets Prince Charming. But she won't discover that it's him 'til Chapter Three. Would you like to know about the things I like? Or maybe about my life?      * Your likes    * About you |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                                                                                                                                                                                                                                                                                                                     |
