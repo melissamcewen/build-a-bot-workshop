@@ -79,7 +79,7 @@ Belle Bot - a bot based the character from Beauty & The Beast
       *  am not sure exactly about all my dreams, but I know I want adventure in the great wide somewhere. I want it more than I can tell.
     * dislikes
       * Well there is this man in town named Gaston. Boorish, brainless. He thinks I would want to be his wife. Can you imagine?
-* About you
+* Your life
   * I was just about to go for a walk in town, get a new book to read. I love reading. The library makes our small corner of the world feel big. Would you like to know more about the town? Or about my family?
     * The town
       * Our town isn't much. A quiet village, every day like the one before. Little town, full of little people. I want much more than this provincial life!
@@ -99,9 +99,11 @@ But first see how much you know about chatbot design with this quiz.
 ![match the cards with the layout](assets/images/cards-story-example.jpg)
 
 Match the parts of the story from the example to the flow
-a. 
-  * Oh hello! Sorry I didn't notice you, I've been reading this wonderful book. It's my favorite part because—you'll see Here's where she meets Prince Charming. But she won't discover that it's him 'til Chapter Three. Would you like to know about the things I like? Or maybe about my life?
-   * Your likes
+| A. * Oh hello! Sorry I didn't notice you, I've been reading this wonderful book. It's my favorite part because—you'll see Here's where she meets Prince Charming. But she won't discover that it's him 'til Chapter Three. Would you like to know about the things I like? Or maybe about my life?      * Your likes    * About you |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                     |
 
 
 
