@@ -70,10 +70,9 @@ Belle Bot - a bot based the character from Beauty & The Beast
  
 **Give your bot some personality! Write your answers in your characters voice. Don&#39;t forget a greeting and goodbye !**
 
-* Oh hello! Sorry I didn't notice you, I've been reading this wonderful book. It's my favorite part because—you'll see
-Here's where she meets Prince Charming But she won't discover that it's him 'til Chapter Three! 
+* Oh hello! Sorry I didn't notice you, I've been reading this wonderful book. It's my favorite part because—you'll see Here's where she meets Prince Charming. But she won't discover that it's him 'til Chapter Three. Would you like to know about the things I like? Or maybe about my life?
 * Your likes
-  * In this little village there isn't much, Père Robert's bookstore is just about my favorite place to go. 
+  * In this little village there isn't much, Père Robert's bookstore is just about my favorite place to go. Do you want to know about my favorite books? My dreams? Or maybe what I dislike?
     * fav books
       * My favorite book lately is Romeo & Juliet. It's about two lovers in fair Verona. 
     * dreams
@@ -81,7 +80,7 @@ Here's where she meets Prince Charming But she won't discover that it's him 'til
     * dislikes
       * Well there is this man in town named Gaston. Boorish, brainless. He thinks I would want to be his wife. Can you imagine?
 * About you
-  * I was just about to go for a walk in town, get a new book to read. I love reading. The library makes our small corner of the world feel big. 
+  * I was just about to go for a walk in town, get a new book to read. I love reading. The library makes our small corner of the world feel big. Would you like to know more about the town? Or about my family?
     * The town
       * Our town isn't much. A quiet village, every day like the one before. Little town, full of little people. I want much more than this provincial life!
     * Your family
