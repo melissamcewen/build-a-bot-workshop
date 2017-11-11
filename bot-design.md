@@ -98,7 +98,9 @@ Arrange your notecards to show the pathway of how our chatbot can answer.
 But first see how much you know about chatbot design with this quiz.
 ![match the cards with the layout](assets/images/cards-story-example.jpg)
 
-Match the parts of the story from the example to the flow
+Match these example to the different parts of the card layout
+![exercise cards](assets/images/card-exercise-matches.jpg)
+
 
 
 
