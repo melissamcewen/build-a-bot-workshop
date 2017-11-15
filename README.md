@@ -22,7 +22,7 @@ In this workshop we'll build a Facebook chatbot using code. Along the way we'll 
 * [Create Your Bot App](create-app.md)
 * [Code Your Bot](write-code.md)
 * [Teach Your Bot Cool Tricks](bot-tricks.md)
-* [Next Steps](next-steps.md)
+* [Appendix](appendix.md)
 
 
 
