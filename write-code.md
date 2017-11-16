@@ -53,7 +53,7 @@ var myNumber = 5;
 //what's the difference? Click run to find out
 
 console.log("MyVar is a " + typeof myVar);
-console.log("MyVar is a " + typeof myNumber);
+console.log("myNumber is a " + typeof myNumber);
 ```
 ### :tada: **Activity** :tada: My Favorite Foods
 
