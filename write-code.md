@@ -16,7 +16,7 @@ There is code on the left side, that's where we will write our Javascript. We ca
 to see the results. And the results will show on the **console**, which is the right side.
 
 ## Variables
-Head to [jsbin and click run](http://jsbin.com/laweped/edit?js,console){:target="_blank"}, then see if you can complete the exercise.
+Head to [jsbin and click run](http://jsbin.com/laweped/edit?js,console), then see if you can complete the exercise.
 
 
 ### :tada: **Activity** :tada: My name is a variable
