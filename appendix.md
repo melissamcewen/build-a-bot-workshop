@@ -163,4 +163,4 @@ Pocahantas, Jasmine, Mulan, Ariel
   
   
  ## Thank you!
-Thanks to Kristi Leach and Karl Thomas for your reviews and feedback :D
+Thanks to Kristi Leach, Samantha Goodman, and Karl Thomas for your reviews and feedback :D
