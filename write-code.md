@@ -42,7 +42,7 @@ console.log(myVariable);
 OK but there are different types of things we can put inside variables. They are called data types. Let's learn about those with more activities.
 ### :tada: **Activity** :tada: What Type?
 
-[Click here to go to Jsbin](http://jsbin.com/fixoqe/edit?js,console).
+[Click here to go to Jsbin](http://jsbin.com/fixoqe/edit?js,console){:target="_blank"}.
 ```javascript
 // Here is our handy variable again
 var myVar = "my name is ";
@@ -57,7 +57,7 @@ console.log("myNumber is a " + typeof myNumber);
 ```
 ### :tada: **Activity** :tada: My Favorite Foods
 
-[Click here to go to Jsbin](http://jsbin.com/digidux/edit?js,console)
+[Click here to go to Jsbin](http://jsbin.com/digidux/edit?js,console){:target="_blank"}
 
 ```javascript
 // What if we want to store a list of things?
@@ -70,7 +70,7 @@ var favFoods = ["pizza", "pasta"];
 
 ### :tada: **Activity** :tada: Personal Address Book
 
-[Click here to go to Jsbin](http://jsbin.com/dexozi/edit?js,console)
+[Click here to go to Jsbin](http://jsbin.com/dexozi/edit?js,console){:target="_blank"}
 ```javascript
 // What if we have a lot of data about one thing
 // like about Melissa?
@@ -116,7 +116,7 @@ Functions allow Javascript to perform tasks. Using a function is basically like 
 
 ### :tada: **Activity** :tada: Math Spell
 
-We're going to use a site called JSbin to examine some functions. [Head over there and click run to try it](http://jsbin.com/zeleko/edit?js,console). 
+We're going to use a site called JSbin to examine some functions. [Head over there and click run to try it](http://jsbin.com/zeleko/edit?js,console){:target="_blank"}. 
 
 ```javascript
 //defining a function
@@ -129,7 +129,7 @@ mathSpell(2,2);
 ```
 
 ### :tada: **Activity** :tada: Turn Into A Pumpkin
-Head on over to [Jsbin](http://jsbin.com/sotomim/edit?js,console) and click "run." Then try it yourself!
+Head on over to [Jsbin](http://jsbin.com/sotomim/edit?js,console){:target="_blank"} and click "run." Then try it yourself!
 
 ```javascript
 // here is our function
@@ -148,7 +148,7 @@ console.log(mySpell("pumpkin"))
 ```
 
 ### :tada: **Activity** :tada: Find the bug
-Head back over to [Jsbin and run the code](http://jsbin.com/rolaca/edit?js,console). Did you get the answer you expected? 
+Head back over to [Jsbin and run the code](http://jsbin.com/rolaca/edit?js,console){:target="_blank"}. Did you get the answer you expected? 
 
 Can you fix it?
 
@@ -204,7 +204,7 @@ Discuss what the example parts might mean and what data types they contain. See 
 
 
 ### :tada: **Activity** :tada: Function Practice
-Head to [jsbin](http://jsbin.com/zuseqe/edit?js,console). See if you can get the myFunction to run and get you the secret code word. Then see if you can write your own function.
+Head to [jsbin](http://jsbin.com/zuseqe/edit?js,console){:target="_blank"}. See if you can get the myFunction to run and get you the secret code word. Then see if you can write your own function.
 
 ```javascript
 
@@ -238,7 +238,7 @@ Checkout line 55 in your Glitch app to see the function receivedPostback. Head o
 ### :tada: **Activity** :tada:
 What arguments does sendButtons take? What kind of data does receivedPostback use when it calls sendButtons? What would you do if you wanted to add more buttons or change a message?
 
-Try completing the code in [this jsbin](http://jsbin.com/ketuhek/edit?js,console) to respond with the following
+Try completing the code in [this jsbin](http://jsbin.com/ketuhek/edit?js,console){:target="_blank"} to respond with the following
 
 
 > "you successfully triggered this"
