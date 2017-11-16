@@ -253,23 +253,28 @@ Try completing the code in [this jsbin](http://jsbin.com/ketuhek/edit?js,console
 function practicePostback(event){
   var senderID = "fakeID123";
   var payload = event.postback.payload;
+  // 1. edit this to be triggered when the payload is "testme"
   if(payload === ""){
-    console.log("you successfully triggered this")
-    
-    /*now let's make two buttons
+    console.log("you successfully triggered step 1! woohoo");
+ 
+    var buttons = [
+    /* 
+    2. now let's make two buttons
     the format for a button is:
      {
-      type:"postback",
-      payload:"action",
-      title:"button text"
+       type:"postback",
+       payload:"action",
+       title:"button text"
       }
     */
-    var buttons = [];
-    // add a message
+    ];
+    // 3. add a message
     var messageText = "";
     
     // now call testSendMessage
     testSendMessage(senderID, messageText, buttons)
+  } else {
+    console.log("oops don't forget to edit the 'if' in step 1");
   }
 }
 
@@ -280,6 +285,30 @@ var practiceEvent = {
      payload: "testme"
    }
 }
+
+// this is a test version of the SendMessage function
+function testSendMessage(senderID, messageText, buttons) {
+  console.log("successfully called testSendMessage");
+  if (messageText) {
+    console.log("your message is " + messageText);
+   } else {
+     console.log ("oops looks your message is missing, go to step 3 and add one");
+   }
+  
+  if (buttons && buttons.length) {
+      console.log ("the buttons are:");
+      buttons.forEach(function(element) {
+       console.log(element.title);
+      });
+  } else {
+     console.log ("oops looks like the buttons are missing, go to step 2 and add some");
+  }
+
+
+}
+
+//4.  call practicePostback using the practiceEvent variable
+
 ```
 
 
