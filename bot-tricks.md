@@ -68,6 +68,7 @@ Finally we know what the greeting looks like and what it contains, let's add our
   }
 ```
 ## Using emoji in our responses
+You can just use an emoji in your responses like you normally would because Javascript doesn't understand them :( But we can convert them into something Javscript does know! [Head over to Unicode Code Converter](https://r12a.github.io/apps/conversion/), type in an emoji in the Javascript box and click "convert." Then you can use that string in your responses!
 
 
 ## Create more cool stuff with chatbots
