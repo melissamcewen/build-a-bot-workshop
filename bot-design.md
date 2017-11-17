@@ -30,9 +30,11 @@ There are few options in the sample project for your scripts. Let's start with a
 
 ### Copy The Base Worksheet/Checklist
 You can find a base worksheet/checklist on Google Docs- [here](https://docs.google.com/document/d/1nlEPZDJwBNy31Gvh_nEBfgs2w4xWahz3tZdu-uuWmbc/edit?usp=sharing). Either make a copy or download it to your computer as a text document
+
 ![copy the base worksheet](assets/images/copy-checklist.jpg)
 
 We recommend you use this for writing your script and also to track your progress by bolding the things you've completed:
+
 ![track progress](assets/images/track-progress.jpg)
 
 
