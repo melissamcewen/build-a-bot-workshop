@@ -22,10 +22,20 @@ Chatbots are just apps you can "chat" with. They've existed a long time. A human
 ### :tada: **Activity** :tada:
 Message some of the example chatbots
 
+
 ## Write Your Script
 Right now we'll be thinking about what kind of bot you want to build. And we'll start an exercise that will help us design it. Designing is one of the most important part of the process. I've provided a kit for helping us write our chatbots. Messages have a 640 character limit and questions should be about 20 characters, so be aware of that when writing your script.
 
 There are few options in the sample project for your scripts. Let's start with a bot based on a character (fictional or real...including yourself). If we have time we can also create a quiz or a story.
+
+### Copy The Base Worksheet/Checklist
+You can find a base worksheet/checklist on Google Docs- [here](https://docs.google.com/document/d/1nlEPZDJwBNy31Gvh_nEBfgs2w4xWahz3tZdu-uuWmbc/edit?usp=sharing). Either make a copy or download it to your computer as a text document
+![copy the base worksheet](assets/images/copy-checklist.jpg)
+
+We recommend you use this for writing your script and also to track your progress by bolding the things you've completed:
+![track progress](assets/images/track-progress.jpg)
+
+
 
 ### A Basic Character Script
 With an example!
