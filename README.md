@@ -25,6 +25,8 @@ In this workshop we'll build a Facebook chatbot using code. Along the way we'll 
 * [Appendix](appendix.md)
 
 
+[Workshop website](https://melissamcewen.github.io/build-a-bot-workshop/)
+[Workshop slides](https://docs.google.com/presentation/d/1csScp6zxpDc31PdxvdOH_Vq5uLy622siAZULDte3DCY/edit?usp=sharing)
 
 
 This workshop was created for ChickTech Chicago High School 2017
